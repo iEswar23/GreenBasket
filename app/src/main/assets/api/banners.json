@@ -1,0 +1,44 @@
+{
+ "banners": [
+  {
+   "id": "b1",
+   "title": "Fresh fruits, up to 30% off",
+   "subtitle": "Handpicked every morning from local farms",
+   "emoji": "🍓",
+   "startColor": "#1A7F37",
+   "endColor": "#3FB85F",
+   "cta": "Shop fruits",
+   "categoryId": "fruits_vegetables"
+  },
+  {
+   "id": "b2",
+   "title": "Dairy day sale",
+   "subtitle": "Milk, paneer & curd delivered chilled",
+   "emoji": "🧀",
+   "startColor": "#F2A900",
+   "endColor": "#FFCE4A",
+   "cta": "Shop dairy",
+   "categoryId": "dairy_eggs"
+  },
+  {
+   "id": "b3",
+   "title": "Munchies for movie night",
+   "subtitle": "Chips, popcorn & chocolates from ₹20",
+   "emoji": "🍿",
+   "startColor": "#C2410C",
+   "endColor": "#F97316",
+   "cta": "Shop snacks",
+   "categoryId": "snacks"
+  },
+  {
+   "id": "b4",
+   "title": "Stock up on staples",
+   "subtitle": "Atta, rice & dal — save up to ₹200",
+   "emoji": "🌾",
+   "startColor": "#7C5A1E",
+   "endColor": "#B98A3A",
+   "cta": "Shop staples",
+   "categoryId": "staples"
+  }
+ ]
+}

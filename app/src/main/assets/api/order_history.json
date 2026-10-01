@@ -1,0 +1,132 @@
+{
+ "orders": [
+  {
+   "id": "GB24091873",
+   "placedDaysAgo": 3,
+   "hour": 19,
+   "minute": 42,
+   "status": "DELIVERED",
+   "items": [
+    {
+     "productId": "dy_toned_1l",
+     "quantity": 2
+    },
+    {
+     "productId": "bk_brown_bread",
+     "quantity": 1
+    },
+    {
+     "productId": "fv_banana",
+     "quantity": 1
+    },
+    {
+     "productId": "dy_brown_eggs",
+     "quantity": 1
+    },
+    {
+     "productId": "fv_tomato_500",
+     "quantity": 1
+    },
+    {
+     "productId": "fv_onion_1kg",
+     "quantity": 1
+    }
+   ],
+   "slotLabel": "Express · 12 mins",
+   "paymentMethod": "UPI",
+   "couponCode": null
+  },
+  {
+   "id": "GB24089215",
+   "placedDaysAgo": 9,
+   "hour": 8,
+   "minute": 15,
+   "status": "DELIVERED",
+   "items": [
+    {
+     "productId": "st_atta_5",
+     "quantity": 1
+    },
+    {
+     "productId": "st_toor_dal",
+     "quantity": 1
+    },
+    {
+     "productId": "st_sunflower_oil",
+     "quantity": 2
+    },
+    {
+     "productId": "st_salt",
+     "quantity": 1
+    },
+    {
+     "productId": "dy_ghee",
+     "quantity": 1
+    }
+   ],
+   "slotLabel": "7 AM – 8 AM",
+   "paymentMethod": "CARD",
+   "couponCode": "GREEN10"
+  },
+  {
+   "id": "GB24085530",
+   "placedDaysAgo": 16,
+   "hour": 21,
+   "minute": 5,
+   "status": "CANCELLED",
+   "items": [
+    {
+     "productId": "sn_chips_115",
+     "quantity": 2
+    },
+    {
+     "productId": "bv_cola_2l",
+     "quantity": 1
+    },
+    {
+     "productId": "sn_popcorn",
+     "quantity": 1
+    },
+    {
+     "productId": "sn_dark_choc",
+     "quantity": 1
+    }
+   ],
+   "slotLabel": "Express · 15 mins",
+   "paymentMethod": "CASH",
+   "couponCode": null
+  },
+  {
+   "id": "GB24081102",
+   "placedDaysAgo": 24,
+   "hour": 10,
+   "minute": 30,
+   "status": "DELIVERED",
+   "items": [
+    {
+     "productId": "hh_detergent_1",
+     "quantity": 1
+    },
+    {
+     "productId": "hh_dishwash",
+     "quantity": 1
+    },
+    {
+     "productId": "pc_toothpaste",
+     "quantity": 2
+    },
+    {
+     "productId": "pc_handwash",
+     "quantity": 1
+    },
+    {
+     "productId": "hh_garbage_bags",
+     "quantity": 1
+    }
+   ],
+   "slotLabel": "10 AM – 11 AM",
+   "paymentMethod": "UPI",
+   "couponCode": null
+  }
+ ]
+}

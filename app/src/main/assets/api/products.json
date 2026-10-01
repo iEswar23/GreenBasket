@@ -1,0 +1,4209 @@
+{
+ "products": [
+  {
+   "id": "fv_banana",
+   "name": "Banana Robusta",
+   "brand": "FreshHarvest",
+   "categoryId": "fruits_vegetables",
+   "packSize": "6 pcs (approx. 1 kg)",
+   "price": 49,
+   "mrp": 60,
+   "emoji": "🍌",
+   "tint": "#FFF6C9",
+   "variantGroup": "banana",
+   "description": "Naturally ripened Robusta bananas with a creamy, sweet bite. Ideal for breakfast, smoothies and quick energy between meals.",
+   "highlights": [
+    "Naturally ripened without carbide",
+    "Rich in potassium",
+    "Sourced from Jalgaon farms"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "89 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "1.1 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "22.8 g"
+    },
+    {
+     "label": "Fat",
+     "value": "0.3 g"
+    },
+    {
+     "label": "Dietary fibre",
+     "value": "2.6 g"
+    }
+   ],
+   "keywords": "kela fruit",
+   "rating": 4.7,
+   "ratingCount": 4139
+  },
+  {
+   "id": "fv_apple",
+   "name": "Apple Shimla",
+   "brand": "FreshHarvest",
+   "categoryId": "fruits_vegetables",
+   "packSize": "4 pcs (approx. 600 g)",
+   "price": 139,
+   "mrp": 170,
+   "emoji": "🍎",
+   "tint": "#FDE2E0",
+   "variantGroup": "apple",
+   "description": "Crisp, juicy hill apples from Himachal orchards with a balanced sweet-tart flavour.",
+   "highlights": [
+    "Hand-picked and graded",
+    "Crunchy texture",
+    "Store refrigerated for longer freshness"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "52 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "0.3 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "13.8 g"
+    },
+    {
+     "label": "Fat",
+     "value": "0.2 g"
+    },
+    {
+     "label": "Dietary fibre",
+     "value": "2.4 g"
+    }
+   ],
+   "keywords": "seb fruit",
+   "rating": 4.2,
+   "ratingCount": 508
+  },
+  {
+   "id": "fv_tomato_500",
+   "name": "Tomato Hybrid",
+   "brand": "GreenField",
+   "categoryId": "fruits_vegetables",
+   "packSize": "500 g",
+   "price": 22,
+   "mrp": 29,
+   "emoji": "🍅",
+   "tint": "#FDE2E0",
+   "variantGroup": "tomato",
+   "description": "Firm, bright red hybrid tomatoes for curries, salads and chutneys.",
+   "highlights": [
+    "Firm and evenly ripe",
+    "Great for gravies",
+    "Sorted for size"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "18 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "0.9 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "3.9 g"
+    },
+    {
+     "label": "Fat",
+     "value": "0.2 g"
+    },
+    {
+     "label": "Dietary fibre",
+     "value": "1.2 g"
+    }
+   ],
+   "keywords": "tamatar vegetable",
+   "rating": 4.6,
+   "ratingCount": 393
+  },
+  {
+   "id": "fv_tomato_1kg",
+   "name": "Tomato Hybrid",
+   "brand": "GreenField",
+   "categoryId": "fruits_vegetables",
+   "packSize": "1 kg",
+   "price": 42,
+   "mrp": 56,
+   "emoji": "🍅",
+   "tint": "#FDE2E0",
+   "variantGroup": "tomato",
+   "description": "Firm, bright red hybrid tomatoes for curries, salads and chutneys.",
+   "highlights": [
+    "Firm and evenly ripe",
+    "Great for gravies",
+    "Sorted for size"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "18 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "0.9 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "3.9 g"
+    },
+    {
+     "label": "Fat",
+     "value": "0.2 g"
+    },
+    {
+     "label": "Dietary fibre",
+     "value": "1.2 g"
+    }
+   ],
+   "keywords": "tamatar vegetable",
+   "rating": 4.5,
+   "ratingCount": 4702
+  },
+  {
+   "id": "fv_onion_1kg",
+   "name": "Onion",
+   "brand": "GreenField",
+   "categoryId": "fruits_vegetables",
+   "packSize": "1 kg",
+   "price": 39,
+   "mrp": 52,
+   "emoji": "🧅",
+   "tint": "#F6E6EF",
+   "variantGroup": "onion",
+   "description": "Medium-sized Nashik onions with a sharp, robust flavour — the base of every Indian kitchen.",
+   "highlights": [
+    "Dry, papery skin for longer shelf life",
+    "Medium size",
+    "Store in a cool, dry place"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "40 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "1.1 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "9.3 g"
+    },
+    {
+     "label": "Fat",
+     "value": "0.1 g"
+    },
+    {
+     "label": "Dietary fibre",
+     "value": "1.7 g"
+    }
+   ],
+   "keywords": "pyaz kanda vegetable",
+   "rating": 4.4,
+   "ratingCount": 9141
+  },
+  {
+   "id": "fv_onion_2kg",
+   "name": "Onion",
+   "brand": "GreenField",
+   "categoryId": "fruits_vegetables",
+   "packSize": "2 kg",
+   "price": 76,
+   "mrp": 104,
+   "emoji": "🧅",
+   "tint": "#F6E6EF",
+   "variantGroup": "onion",
+   "description": "Medium-sized Nashik onions with a sharp, robust flavour — the base of every Indian kitchen.",
+   "highlights": [
+    "Dry, papery skin for longer shelf life",
+    "Medium size",
+    "Store in a cool, dry place"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "40 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "1.1 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "9.3 g"
+    },
+    {
+     "label": "Fat",
+     "value": "0.1 g"
+    },
+    {
+     "label": "Dietary fibre",
+     "value": "1.7 g"
+    }
+   ],
+   "keywords": "pyaz kanda vegetable",
+   "rating": 4.3,
+   "ratingCount": 178
+  },
+  {
+   "id": "fv_potato",
+   "name": "Potato",
+   "brand": "GreenField",
+   "categoryId": "fruits_vegetables",
+   "packSize": "1 kg",
+   "price": 34,
+   "mrp": 45,
+   "emoji": "🥔",
+   "tint": "#F5ECDD",
+   "variantGroup": "potato",
+   "description": "All-purpose potatoes that fry crisp and mash smooth. A pantry essential.",
+   "highlights": [
+    "Low moisture, ideal for frying",
+    "Cleaned and sorted",
+    "Versatile everyday vegetable"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "77 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "2 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "17 g"
+    },
+    {
+     "label": "Fat",
+     "value": "0.1 g"
+    },
+    {
+     "label": "Dietary fibre",
+     "value": "2.2 g"
+    }
+   ],
+   "keywords": "aloo vegetable",
+   "rating": 4.5,
+   "ratingCount": 793
+  },
+  {
+   "id": "fv_carrot",
+   "name": "Carrot Ooty",
+   "brand": "FreshHarvest",
+   "categoryId": "fruits_vegetables",
+   "packSize": "500 g",
+   "price": 38,
+   "mrp": 49,
+   "emoji": "🥕",
+   "tint": "#FFE8D6",
+   "variantGroup": "carrot",
+   "description": "Sweet, crunchy Ooty carrots — great for halwa, salads and stir-fries.",
+   "highlights": [
+    "Grown in the Nilgiris",
+    "Naturally sweet",
+    "Rich in beta-carotene"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "41 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "0.9 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "9.6 g"
+    },
+    {
+     "label": "Fat",
+     "value": "0.2 g"
+    },
+    {
+     "label": "Dietary fibre",
+     "value": "2.8 g"
+    }
+   ],
+   "keywords": "gajar vegetable",
+   "rating": 4.8,
+   "ratingCount": 3216
+  },
+  {
+   "id": "fv_cucumber",
+   "name": "Cucumber English",
+   "brand": "FreshHarvest",
+   "categoryId": "fruits_vegetables",
+   "packSize": "500 g",
+   "price": 25,
+   "mrp": 32,
+   "emoji": "🥒",
+   "tint": "#E3F4E1",
+   "variantGroup": "cucumber",
+   "description": "Cool, crisp cucumbers with thin skin, perfect for raita and salads.",
+   "highlights": [
+    "Thin skin, fewer seeds",
+    "Hydrating",
+    "Washed and packed"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "15 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "0.7 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "3.6 g"
+    },
+    {
+     "label": "Fat",
+     "value": "0.1 g"
+    },
+    {
+     "label": "Dietary fibre",
+     "value": "0.5 g"
+    }
+   ],
+   "keywords": "kheera vegetable salad",
+   "rating": 4.8,
+   "ratingCount": 3605
+  },
+  {
+   "id": "fv_capsicum",
+   "name": "Capsicum Green",
+   "brand": "GreenField",
+   "categoryId": "fruits_vegetables",
+   "packSize": "250 g",
+   "price": 28,
+   "mrp": 36,
+   "emoji": "🫑",
+   "tint": "#E3F4E1",
+   "variantGroup": "capsicum",
+   "description": "Glossy green bell peppers that add crunch to pizzas, pulao and stir-fries.",
+   "highlights": [
+    "Thick, crunchy walls",
+    "Mildly sweet",
+    "Great for grilling"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "20 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "0.9 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "4.6 g"
+    },
+    {
+     "label": "Fat",
+     "value": "0.2 g"
+    },
+    {
+     "label": "Dietary fibre",
+     "value": "1.7 g"
+    }
+   ],
+   "keywords": "shimla mirch vegetable",
+   "rating": 4.5,
+   "ratingCount": 1627
+  },
+  {
+   "id": "fv_broccoli",
+   "name": "Broccoli",
+   "brand": "Organic Roots",
+   "categoryId": "fruits_vegetables",
+   "packSize": "1 pc (250–300 g)",
+   "price": 69,
+   "mrp": 89,
+   "emoji": "🥦",
+   "tint": "#E3F4E1",
+   "variantGroup": "broccoli",
+   "description": "Tight green florets packed with nutrition. Steam, sauté or roast.",
+   "highlights": [
+    "Pesticide-residue tested",
+    "Rich in vitamin C",
+    "Compact, fresh florets"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "34 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "2.8 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "6.6 g"
+    },
+    {
+     "label": "Fat",
+     "value": "0.4 g"
+    },
+    {
+     "label": "Dietary fibre",
+     "value": "2.6 g"
+    }
+   ],
+   "keywords": "vegetable exotic",
+   "rating": 4.5,
+   "ratingCount": 578
+  },
+  {
+   "id": "fv_grapes",
+   "name": "Green Grapes Seedless",
+   "brand": "FreshHarvest",
+   "categoryId": "fruits_vegetables",
+   "packSize": "500 g",
+   "price": 79,
+   "mrp": 99,
+   "emoji": "🍇",
+   "tint": "#EAF5DA",
+   "variantGroup": "grapes",
+   "description": "Juicy seedless grapes from Nashik vineyards — a refreshing snack straight from the fridge.",
+   "highlights": [
+    "Seedless",
+    "Sweet and juicy",
+    "Wash before eating"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "69 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "0.7 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "18 g"
+    },
+    {
+     "label": "Fat",
+     "value": "0.2 g"
+    },
+    {
+     "label": "Dietary fibre",
+     "value": "0.9 g"
+    }
+   ],
+   "keywords": "angoor fruit",
+   "rating": 4.1,
+   "ratingCount": 6649
+  },
+  {
+   "id": "fv_watermelon",
+   "name": "Watermelon Kiran",
+   "brand": "FreshHarvest",
+   "categoryId": "fruits_vegetables",
+   "packSize": "1 pc (1.5–2 kg)",
+   "price": 59,
+   "mrp": 80,
+   "emoji": "🍉",
+   "tint": "#FDE2E0",
+   "variantGroup": "watermelon",
+   "description": "Small-sized Kiran watermelons with deep red, sweet flesh and thin rind.",
+   "highlights": [
+    "Thin rind, more fruit",
+    "Naturally sweet",
+    "Perfect for summer"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "30 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "0.6 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "7.6 g"
+    },
+    {
+     "label": "Fat",
+     "value": "0.2 g"
+    },
+    {
+     "label": "Dietary fibre",
+     "value": "0.4 g"
+    }
+   ],
+   "keywords": "tarbooz fruit",
+   "rating": 4.7,
+   "ratingCount": 320
+  },
+  {
+   "id": "fv_coriander",
+   "name": "Coriander Leaves",
+   "brand": "GreenField",
+   "categoryId": "fruits_vegetables",
+   "packSize": "100 g",
+   "price": 12,
+   "mrp": 18,
+   "emoji": "🌿",
+   "tint": "#E3F4E1",
+   "variantGroup": "coriander",
+   "description": "Fragrant fresh coriander bunches to finish dals, curries and chaats.",
+   "highlights": [
+    "Freshly harvested",
+    "Aromatic",
+    "Trimmed roots"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "23 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "2.1 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "3.7 g"
+    },
+    {
+     "label": "Fat",
+     "value": "0.5 g"
+    },
+    {
+     "label": "Dietary fibre",
+     "value": "2.8 g"
+    }
+   ],
+   "keywords": "dhaniya herbs",
+   "rating": 4.1,
+   "ratingCount": 6257
+  },
+  {
+   "id": "fv_lemon",
+   "name": "Lemon",
+   "brand": "GreenField",
+   "categoryId": "fruits_vegetables",
+   "packSize": "250 g",
+   "price": 29,
+   "mrp": 40,
+   "emoji": "🍋",
+   "tint": "#FFF6C9",
+   "variantGroup": "lemon",
+   "description": "Juicy, thin-skinned lemons for nimbu pani, dressings and marinades.",
+   "highlights": [
+    "Thin skin, more juice",
+    "Rich in vitamin C",
+    "Sorted for freshness"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "29 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "1.1 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "9.3 g"
+    },
+    {
+     "label": "Fat",
+     "value": "0.3 g"
+    },
+    {
+     "label": "Dietary fibre",
+     "value": "2.8 g"
+    }
+   ],
+   "keywords": "nimbu citrus",
+   "rating": 4.2,
+   "ratingCount": 2254
+  },
+  {
+   "id": "fv_avocado",
+   "name": "Avocado (Imported)",
+   "brand": "Organic Roots",
+   "categoryId": "fruits_vegetables",
+   "packSize": "1 pc",
+   "price": 149,
+   "mrp": 199,
+   "emoji": "🥑",
+   "tint": "#E7F1D9",
+   "variantGroup": "avocado",
+   "description": "Creamy Hass avocados — ready to eat in 2–3 days. Spread on toast or blend into guacamole.",
+   "highlights": [
+    "Hass variety",
+    "Rich in healthy fats",
+    "Ripens at room temperature"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "160 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "2 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "8.5 g"
+    },
+    {
+     "label": "Fat",
+     "value": "14.7 g"
+    },
+    {
+     "label": "Dietary fibre",
+     "value": "6.7 g"
+    }
+   ],
+   "keywords": "exotic fruit",
+   "rating": 4.7,
+   "ratingCount": 2148
+  },
+  {
+   "id": "fv_garlic",
+   "name": "Garlic",
+   "brand": "GreenField",
+   "categoryId": "fruits_vegetables",
+   "packSize": "100 g",
+   "price": 35,
+   "mrp": 45,
+   "emoji": "🧄",
+   "tint": "#F4F0E8",
+   "variantGroup": "garlic",
+   "description": "Bold, aromatic garlic bulbs for tadkas, chutneys and pickles.",
+   "highlights": [
+    "Large cloves",
+    "Strong aroma",
+    "Long shelf life"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "149 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "6.4 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "33 g"
+    },
+    {
+     "label": "Fat",
+     "value": "0.5 g"
+    },
+    {
+     "label": "Dietary fibre",
+     "value": "2.1 g"
+    }
+   ],
+   "keywords": "lehsun",
+   "rating": 4.4,
+   "ratingCount": 4877
+  },
+  {
+   "id": "fv_corn",
+   "name": "Sweet Corn",
+   "brand": "FreshHarvest",
+   "categoryId": "fruits_vegetables",
+   "packSize": "2 pcs",
+   "price": 45,
+   "mrp": 60,
+   "emoji": "🌽",
+   "tint": "#FFF1C9",
+   "variantGroup": "corn",
+   "description": "Tender American sweet corn cobs. Boil, grill or toss into soups.",
+   "highlights": [
+    "Sweet, tender kernels",
+    "Husk-on for freshness",
+    "Great for bhutta"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "86 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "3.3 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "19 g"
+    },
+    {
+     "label": "Fat",
+     "value": "1.4 g"
+    },
+    {
+     "label": "Dietary fibre",
+     "value": "2 g"
+    }
+   ],
+   "keywords": "bhutta vegetable",
+   "rating": 4.6,
+   "ratingCount": 2919
+  },
+  {
+   "id": "fv_spinach",
+   "name": "Spinach (Palak)",
+   "brand": "Organic Roots",
+   "categoryId": "fruits_vegetables",
+   "packSize": "250 g",
+   "price": 22,
+   "mrp": 30,
+   "emoji": "🥬",
+   "tint": "#E3F4E1",
+   "variantGroup": "spinach",
+   "description": "Tender spinach leaves for palak paneer, dal and smoothies.",
+   "highlights": [
+    "Cleaned and bunched",
+    "Iron-rich greens",
+    "Pesticide-residue tested"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "23 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "2.9 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "3.6 g"
+    },
+    {
+     "label": "Fat",
+     "value": "0.4 g"
+    },
+    {
+     "label": "Dietary fibre",
+     "value": "2.2 g"
+    }
+   ],
+   "keywords": "palak leafy vegetable",
+   "rating": 4.4,
+   "ratingCount": 3327
+  },
+  {
+   "id": "dy_toned_500",
+   "name": "Toned Milk",
+   "brand": "DailyGold",
+   "categoryId": "dairy_eggs",
+   "packSize": "500 ml",
+   "price": 27,
+   "mrp": 27,
+   "emoji": "🥛",
+   "tint": "#E6F0FB",
+   "variantGroup": "toned_milk",
+   "description": "Pasteurised toned milk with 3% fat. Perfect for tea, coffee and everyday use.",
+   "highlights": [
+    "Pasteurised & homogenised",
+    "3% fat, 8.5% SNF",
+    "Delivered chilled"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "58 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "3.1 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "4.7 g"
+    },
+    {
+     "label": "Fat",
+     "value": "3 g"
+    },
+    {
+     "label": "Calcium",
+     "value": "120 mg"
+    }
+   ],
+   "keywords": "doodh",
+   "rating": 4.1,
+   "ratingCount": 1129
+  },
+  {
+   "id": "dy_toned_1l",
+   "name": "Toned Milk",
+   "brand": "DailyGold",
+   "categoryId": "dairy_eggs",
+   "packSize": "1 L",
+   "price": 54,
+   "mrp": 54,
+   "emoji": "🥛",
+   "tint": "#E6F0FB",
+   "variantGroup": "toned_milk",
+   "description": "Pasteurised toned milk with 3% fat. Perfect for tea, coffee and everyday use.",
+   "highlights": [
+    "Pasteurised & homogenised",
+    "3% fat, 8.5% SNF",
+    "Delivered chilled"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "58 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "3.1 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "4.7 g"
+    },
+    {
+     "label": "Fat",
+     "value": "3 g"
+    },
+    {
+     "label": "Calcium",
+     "value": "120 mg"
+    }
+   ],
+   "keywords": "doodh",
+   "rating": 4.3,
+   "ratingCount": 286
+  },
+  {
+   "id": "dy_fullcream_500",
+   "name": "Full Cream Milk",
+   "brand": "DailyGold",
+   "categoryId": "dairy_eggs",
+   "packSize": "500 ml",
+   "price": 34,
+   "mrp": 34,
+   "emoji": "🥛",
+   "tint": "#E6F0FB",
+   "variantGroup": "full_cream",
+   "description": "Rich, creamy full cream milk with 6% fat — ideal for desserts, kheer and thick chai.",
+   "highlights": [
+    "6% fat, 9% SNF",
+    "Pasteurised",
+    "Thick and creamy"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "88 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "3.2 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "4.9 g"
+    },
+    {
+     "label": "Fat",
+     "value": "6 g"
+    },
+    {
+     "label": "Calcium",
+     "value": "120 mg"
+    }
+   ],
+   "keywords": "doodh",
+   "rating": 4.8,
+   "ratingCount": 1132
+  },
+  {
+   "id": "dy_fullcream_1l",
+   "name": "Full Cream Milk",
+   "brand": "DailyGold",
+   "categoryId": "dairy_eggs",
+   "packSize": "1 L",
+   "price": 68,
+   "mrp": 68,
+   "emoji": "🥛",
+   "tint": "#E6F0FB",
+   "variantGroup": "full_cream",
+   "description": "Rich, creamy full cream milk with 6% fat — ideal for desserts, kheer and thick chai.",
+   "highlights": [
+    "6% fat, 9% SNF",
+    "Pasteurised",
+    "Thick and creamy"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "88 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "3.2 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "4.9 g"
+    },
+    {
+     "label": "Fat",
+     "value": "6 g"
+    },
+    {
+     "label": "Calcium",
+     "value": "120 mg"
+    }
+   ],
+   "keywords": "doodh",
+   "rating": 4.6,
+   "ratingCount": 965
+  },
+  {
+   "id": "dy_butter_100",
+   "name": "Salted Butter",
+   "brand": "DailyGold",
+   "categoryId": "dairy_eggs",
+   "packSize": "100 g",
+   "price": 58,
+   "mrp": 60,
+   "emoji": "🧈",
+   "tint": "#FFF6C9",
+   "variantGroup": "butter",
+   "description": "Creamy salted table butter made from fresh cream. Spread it on toast or melt over parathas.",
+   "highlights": [
+    "Made from fresh cream",
+    "Lightly salted",
+    "Keep refrigerated"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "722 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "0.6 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "0 g"
+    },
+    {
+     "label": "Fat",
+     "value": "81 g"
+    }
+   ],
+   "keywords": "makhan",
+   "rating": 4.4,
+   "ratingCount": 1210
+  },
+  {
+   "id": "dy_butter_500",
+   "name": "Salted Butter",
+   "brand": "DailyGold",
+   "categoryId": "dairy_eggs",
+   "packSize": "500 g",
+   "price": 275,
+   "mrp": 285,
+   "emoji": "🧈",
+   "tint": "#FFF6C9",
+   "variantGroup": "butter",
+   "description": "Creamy salted table butter made from fresh cream. Spread it on toast or melt over parathas.",
+   "highlights": [
+    "Made from fresh cream",
+    "Lightly salted",
+    "Keep refrigerated"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "722 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "0.6 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "0 g"
+    },
+    {
+     "label": "Fat",
+     "value": "81 g"
+    }
+   ],
+   "keywords": "makhan",
+   "rating": 4.4,
+   "ratingCount": 2780
+  },
+  {
+   "id": "dy_paneer",
+   "name": "Fresh Paneer",
+   "brand": "FarmFresh",
+   "categoryId": "dairy_eggs",
+   "packSize": "200 g",
+   "price": 89,
+   "mrp": 95,
+   "emoji": "🧀",
+   "tint": "#FFF8E1",
+   "variantGroup": "paneer",
+   "description": "Soft, malai paneer made from pure cow milk. Melts in the mouth in tikkas and curries.",
+   "highlights": [
+    "Soft & fresh",
+    "High in protein",
+    "Vacuum packed"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "265 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "18.3 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "1.2 g"
+    },
+    {
+     "label": "Fat",
+     "value": "20.8 g"
+    },
+    {
+     "label": "Calcium",
+     "value": "480 mg"
+    }
+   ],
+   "keywords": "cottage cheese",
+   "rating": 4.2,
+   "ratingCount": 8333
+  },
+  {
+   "id": "dy_cheese_slices",
+   "name": "Cheese Slices",
+   "brand": "FarmFresh",
+   "categoryId": "dairy_eggs",
+   "packSize": "200 g (10 slices)",
+   "price": 145,
+   "mrp": 160,
+   "emoji": "🧀",
+   "tint": "#FFF1C9",
+   "variantGroup": "cheese_slices",
+   "description": "Processed cheddar cheese slices that melt perfectly in sandwiches and burgers.",
+   "highlights": [
+    "10 individually separated slices",
+    "Rich in calcium",
+    "Melts evenly"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "310 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "20 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "3 g"
+    },
+    {
+     "label": "Fat",
+     "value": "24 g"
+    }
+   ],
+   "keywords": "sandwich",
+   "rating": 4.1,
+   "ratingCount": 676
+  },
+  {
+   "id": "dy_curd_400",
+   "name": "Fresh Curd",
+   "brand": "FarmFresh",
+   "categoryId": "dairy_eggs",
+   "packSize": "400 g",
+   "price": 35,
+   "mrp": 40,
+   "emoji": "🥣",
+   "tint": "#F2F5FA",
+   "variantGroup": "curd",
+   "description": "Thick, set curd made from toned milk with live cultures. Great with rice, parathas or as raita.",
+   "highlights": [
+    "Made with live cultures",
+    "Thick set texture",
+    "No added preservatives"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "61 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "3.5 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "4.7 g"
+    },
+    {
+     "label": "Fat",
+     "value": "3.1 g"
+    }
+   ],
+   "keywords": "dahi yogurt",
+   "rating": 4.2,
+   "ratingCount": 551
+  },
+  {
+   "id": "dy_curd_1kg",
+   "name": "Fresh Curd",
+   "brand": "FarmFresh",
+   "categoryId": "dairy_eggs",
+   "packSize": "1 kg",
+   "price": 80,
+   "mrp": 90,
+   "emoji": "🥣",
+   "tint": "#F2F5FA",
+   "variantGroup": "curd",
+   "description": "Thick, set curd made from toned milk with live cultures. Great with rice, parathas or as raita.",
+   "highlights": [
+    "Made with live cultures",
+    "Thick set texture",
+    "No added preservatives"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "61 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "3.5 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "4.7 g"
+    },
+    {
+     "label": "Fat",
+     "value": "3.1 g"
+    }
+   ],
+   "keywords": "dahi yogurt",
+   "rating": 4.4,
+   "ratingCount": 3589
+  },
+  {
+   "id": "dy_brown_eggs",
+   "name": "Brown Eggs",
+   "brand": "HappyHens",
+   "categoryId": "dairy_eggs",
+   "packSize": "6 pcs",
+   "price": 69,
+   "mrp": 84,
+   "emoji": "🥚",
+   "tint": "#F7EBDD",
+   "variantGroup": "brown_eggs",
+   "description": "Farm-fresh brown eggs from vegetarian-fed hens. Rich yolks and sturdy shells.",
+   "highlights": [
+    "Vegetarian-fed hens",
+    "Antibiotic-residue free",
+    "Packed within 48 hours"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "143 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "12.6 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "0.7 g"
+    },
+    {
+     "label": "Fat",
+     "value": "9.5 g"
+    }
+   ],
+   "keywords": "anda",
+   "rating": 4.7,
+   "ratingCount": 3717
+  },
+  {
+   "id": "dy_white_eggs_12",
+   "name": "White Eggs",
+   "brand": "HappyHens",
+   "categoryId": "dairy_eggs",
+   "packSize": "12 pcs",
+   "price": 96,
+   "mrp": 110,
+   "emoji": "🥚",
+   "tint": "#F4F2EE",
+   "variantGroup": "white_eggs",
+   "description": "Classic white table eggs, graded and cleaned. A protein staple for every breakfast.",
+   "highlights": [
+    "Graded for size",
+    "Clean shells",
+    "Store refrigerated"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "143 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "12.6 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "0.7 g"
+    },
+    {
+     "label": "Fat",
+     "value": "9.5 g"
+    }
+   ],
+   "keywords": "anda",
+   "rating": 4.1,
+   "ratingCount": 5953
+  },
+  {
+   "id": "dy_white_eggs_30",
+   "name": "White Eggs",
+   "brand": "HappyHens",
+   "categoryId": "dairy_eggs",
+   "packSize": "30 pcs",
+   "price": 225,
+   "mrp": 260,
+   "emoji": "🥚",
+   "tint": "#F4F2EE",
+   "variantGroup": "white_eggs",
+   "description": "Classic white table eggs, graded and cleaned. A protein staple for every breakfast.",
+   "highlights": [
+    "Graded for size",
+    "Clean shells",
+    "Store refrigerated"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "143 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "12.6 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "0.7 g"
+    },
+    {
+     "label": "Fat",
+     "value": "9.5 g"
+    }
+   ],
+   "keywords": "anda tray",
+   "rating": 4.2,
+   "ratingCount": 10321
+  },
+  {
+   "id": "dy_greek_yogurt",
+   "name": "Greek Yogurt Mango",
+   "brand": "FarmFresh",
+   "categoryId": "dairy_eggs",
+   "packSize": "100 g",
+   "price": 45,
+   "mrp": 55,
+   "emoji": "🥭",
+   "tint": "#FFF1C9",
+   "variantGroup": "greek_yogurt",
+   "description": "Thick, strained Greek yogurt layered with real Alphonso mango pulp.",
+   "highlights": [
+    "High protein",
+    "Real fruit",
+    "No artificial colours"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "110 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "6.5 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "14 g"
+    },
+    {
+     "label": "Fat",
+     "value": "3 g"
+    }
+   ],
+   "keywords": "dessert",
+   "rating": 4.5,
+   "ratingCount": 172
+  },
+  {
+   "id": "dy_chaas",
+   "name": "Masala Chaas",
+   "brand": "DailyGold",
+   "categoryId": "dairy_eggs",
+   "packSize": "200 ml",
+   "price": 15,
+   "mrp": 15,
+   "emoji": "🥛",
+   "tint": "#E3F4E1",
+   "variantGroup": "chaas",
+   "description": "Spiced buttermilk with roasted cumin, mint and ginger. The perfect summer cooler.",
+   "highlights": [
+    "Digestive spices",
+    "Low fat",
+    "Serve chilled"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "20 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "1 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "2 g"
+    },
+    {
+     "label": "Fat",
+     "value": "0.8 g"
+    }
+   ],
+   "keywords": "buttermilk drink",
+   "rating": 4.5,
+   "ratingCount": 3191
+  },
+  {
+   "id": "dy_cream",
+   "name": "Fresh Cream",
+   "brand": "DailyGold",
+   "categoryId": "dairy_eggs",
+   "packSize": "250 ml",
+   "price": 65,
+   "mrp": 70,
+   "emoji": "🍶",
+   "tint": "#F2F5FA",
+   "variantGroup": "cream",
+   "description": "Low-fat fresh cream for rich gravies, desserts and soups.",
+   "highlights": [
+    "25% milk fat",
+    "UHT treated",
+    "Refrigerate after opening"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "250 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "2.2 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "3.6 g"
+    },
+    {
+     "label": "Fat",
+     "value": "25 g"
+    }
+   ],
+   "keywords": "malai",
+   "rating": 4.2,
+   "ratingCount": 6767
+  },
+  {
+   "id": "dy_ghee",
+   "name": "Pure Cow Ghee",
+   "brand": "DailyGold",
+   "categoryId": "dairy_eggs",
+   "packSize": "500 ml",
+   "price": 329,
+   "mrp": 365,
+   "emoji": "🍯",
+   "tint": "#FFF1C9",
+   "variantGroup": "ghee",
+   "description": "Granular, aromatic cow ghee made by the traditional slow-cook method.",
+   "highlights": [
+    "Rich danedar texture",
+    "Traditional aroma",
+    "No added colour"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "897 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "0 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "0 g"
+    },
+    {
+     "label": "Fat",
+     "value": "99.7 g"
+    }
+   ],
+   "keywords": "clarified butter",
+   "rating": 4.6,
+   "ratingCount": 11265
+  },
+  {
+   "id": "dy_lassi",
+   "name": "Sweet Lassi",
+   "brand": "FarmFresh",
+   "categoryId": "dairy_eggs",
+   "packSize": "200 ml",
+   "price": 25,
+   "mrp": 30,
+   "emoji": "🥤",
+   "tint": "#FDF0E6",
+   "variantGroup": "lassi",
+   "description": "Thick Punjabi-style sweet lassi with a hint of cardamom.",
+   "highlights": [
+    "Made from fresh curd",
+    "Cardamom flavour",
+    "Serve chilled"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "95 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "2.8 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "15 g"
+    },
+    {
+     "label": "Fat",
+     "value": "2.5 g"
+    }
+   ],
+   "keywords": "drink",
+   "rating": 4.8,
+   "ratingCount": 580
+  },
+  {
+   "id": "bk_white_bread",
+   "name": "White Sandwich Bread",
+   "brand": "BakeHouse",
+   "categoryId": "bakery",
+   "packSize": "400 g",
+   "price": 40,
+   "mrp": 45,
+   "emoji": "🍞",
+   "tint": "#FBEBDD",
+   "variantGroup": "white_bread",
+   "description": "Soft, fluffy sandwich bread baked fresh every morning.",
+   "highlights": [
+    "Baked fresh daily",
+    "Soft texture",
+    "No added trans fat"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "265 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "8.5 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "50 g"
+    },
+    {
+     "label": "Fat",
+     "value": "3.2 g"
+    }
+   ],
+   "keywords": "pav loaf",
+   "rating": 4.3,
+   "ratingCount": 1481
+  },
+  {
+   "id": "bk_brown_bread",
+   "name": "Brown Bread",
+   "brand": "BakeHouse",
+   "categoryId": "bakery",
+   "packSize": "400 g",
+   "price": 50,
+   "mrp": 55,
+   "emoji": "🍞",
+   "tint": "#F2E2D2",
+   "variantGroup": "brown_bread",
+   "description": "Wholesome brown bread with whole wheat flour for everyday sandwiches.",
+   "highlights": [
+    "Made with whole wheat",
+    "High fibre",
+    "Baked fresh daily"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "247 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "9 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "45 g"
+    },
+    {
+     "label": "Fat",
+     "value": "3.4 g"
+    },
+    {
+     "label": "Dietary fibre",
+     "value": "6 g"
+    }
+   ],
+   "keywords": "loaf",
+   "rating": 4.2,
+   "ratingCount": 5418
+  },
+  {
+   "id": "bk_multigrain",
+   "name": "Multigrain Bread",
+   "brand": "BakeHouse",
+   "categoryId": "bakery",
+   "packSize": "450 g",
+   "price": 60,
+   "mrp": 65,
+   "emoji": "🍞",
+   "tint": "#EFE3D0",
+   "variantGroup": "multigrain",
+   "description": "Hearty multigrain loaf with oats, flax and sunflower seeds.",
+   "highlights": [
+    "7 grains & seeds",
+    "High fibre",
+    "No maida"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "250 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "10 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "42 g"
+    },
+    {
+     "label": "Fat",
+     "value": "4.5 g"
+    },
+    {
+     "label": "Dietary fibre",
+     "value": "7 g"
+    }
+   ],
+   "keywords": "loaf healthy",
+   "rating": 4.4,
+   "ratingCount": 7440
+  },
+  {
+   "id": "bk_pav",
+   "name": "Ladi Pav",
+   "brand": "BakeHouse",
+   "categoryId": "bakery",
+   "packSize": "6 pcs",
+   "price": 30,
+   "mrp": 35,
+   "emoji": "🥖",
+   "tint": "#FBEBDD",
+   "variantGroup": "pav",
+   "description": "Soft Mumbai-style pav — made for pav bhaji and vada pav.",
+   "highlights": [
+    "Soft & spongy",
+    "Baked fresh",
+    "Pack of 6"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "270 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "8 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "52 g"
+    },
+    {
+     "label": "Fat",
+     "value": "3 g"
+    }
+   ],
+   "keywords": "bun",
+   "rating": 4.2,
+   "ratingCount": 8416
+  },
+  {
+   "id": "bk_croissant",
+   "name": "Butter Croissant",
+   "brand": "BakeHouse",
+   "categoryId": "bakery",
+   "packSize": "2 pcs",
+   "price": 89,
+   "mrp": 110,
+   "emoji": "🥐",
+   "tint": "#FFF1D6",
+   "variantGroup": "croissant",
+   "description": "Flaky, golden croissants laminated with real butter.",
+   "highlights": [
+    "Real butter",
+    "27 flaky layers",
+    "Warm for 2 minutes before serving"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "406 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "8 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "45 g"
+    },
+    {
+     "label": "Fat",
+     "value": "21 g"
+    }
+   ],
+   "keywords": "pastry",
+   "rating": 4.4,
+   "ratingCount": 3080
+  },
+  {
+   "id": "bk_muffin",
+   "name": "Chocolate Muffin",
+   "brand": "BakeHouse",
+   "categoryId": "bakery",
+   "packSize": "2 pcs",
+   "price": 70,
+   "mrp": 80,
+   "emoji": "🧁",
+   "tint": "#F2E2D2",
+   "variantGroup": "muffin",
+   "description": "Moist chocolate muffins loaded with chocolate chips.",
+   "highlights": [
+    "Loaded with choco chips",
+    "Eggless",
+    "Individually packed"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "420 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "5 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "55 g"
+    },
+    {
+     "label": "Fat",
+     "value": "20 g"
+    }
+   ],
+   "keywords": "cake dessert",
+   "rating": 4.7,
+   "ratingCount": 208
+  },
+  {
+   "id": "bk_burger_buns",
+   "name": "Burger Buns",
+   "brand": "BakeHouse",
+   "categoryId": "bakery",
+   "packSize": "4 pcs",
+   "price": 35,
+   "mrp": 40,
+   "emoji": "🍔",
+   "tint": "#FBEBDD",
+   "variantGroup": "burger_buns",
+   "description": "Soft sesame-topped burger buns for home-made burgers.",
+   "highlights": [
+    "Sesame topped",
+    "Soft & fluffy",
+    "Pack of 4"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "280 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "9 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "50 g"
+    },
+    {
+     "label": "Fat",
+     "value": "4.5 g"
+    }
+   ],
+   "keywords": "bun",
+   "rating": 4.7,
+   "ratingCount": 629
+  },
+  {
+   "id": "bk_rusk",
+   "name": "Milk Rusk",
+   "brand": "BakeHouse",
+   "categoryId": "bakery",
+   "packSize": "300 g",
+   "price": 55,
+   "mrp": 65,
+   "emoji": "🍞",
+   "tint": "#F6E3C8",
+   "variantGroup": "rusk",
+   "description": "Crunchy twice-baked milk rusk — the perfect partner for your evening chai.",
+   "highlights": [
+    "Twice baked",
+    "Made with milk",
+    "Crunchy"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "407 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "10 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "72 g"
+    },
+    {
+     "label": "Fat",
+     "value": "8.5 g"
+    }
+   ],
+   "keywords": "toast tea time",
+   "rating": 4.5,
+   "ratingCount": 6389
+  },
+  {
+   "id": "bk_fruit_cake",
+   "name": "Plum Fruit Cake",
+   "brand": "BakeHouse",
+   "categoryId": "bakery",
+   "packSize": "250 g",
+   "price": 99,
+   "mrp": 120,
+   "emoji": "🍰",
+   "tint": "#FDE7E4",
+   "variantGroup": "fruit_cake",
+   "description": "Moist plum cake studded with tutti-frutti, raisins and cashews.",
+   "highlights": [
+    "Rich in dry fruits",
+    "Eggless",
+    "Ready to eat"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "380 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "5 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "58 g"
+    },
+    {
+     "label": "Fat",
+     "value": "14 g"
+    }
+   ],
+   "keywords": "dessert",
+   "rating": 4.3,
+   "ratingCount": 2137
+  },
+  {
+   "id": "bk_donuts",
+   "name": "Glazed Donuts",
+   "brand": "BakeHouse",
+   "categoryId": "bakery",
+   "packSize": "2 pcs",
+   "price": 99,
+   "mrp": 120,
+   "emoji": "🍩",
+   "tint": "#FCE4EC",
+   "variantGroup": "donuts",
+   "description": "Soft, airy donuts finished with a pink strawberry glaze and sprinkles.",
+   "highlights": [
+    "Freshly glazed",
+    "Soft & airy",
+    "Best consumed same day"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "452 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "5 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "51 g"
+    },
+    {
+     "label": "Fat",
+     "value": "25 g"
+    }
+   ],
+   "keywords": "dessert",
+   "rating": 4.1,
+   "ratingCount": 11265
+  },
+  {
+   "id": "bk_cookies",
+   "name": "Choco Chip Cookies",
+   "brand": "BakeHouse",
+   "categoryId": "bakery",
+   "packSize": "150 g",
+   "price": 60,
+   "mrp": 75,
+   "emoji": "🍪",
+   "tint": "#F2E2D2",
+   "variantGroup": "cookies",
+   "description": "Buttery cookies loaded with dark chocolate chips. Crisp outside, chewy inside.",
+   "highlights": [
+    "Real chocolate chips",
+    "Baked with butter",
+    "Resealable pack"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "488 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "6 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "64 g"
+    },
+    {
+     "label": "Fat",
+     "value": "23 g"
+    }
+   ],
+   "keywords": "biscuit",
+   "rating": 4.4,
+   "ratingCount": 1946
+  },
+  {
+   "id": "bk_pizza_base",
+   "name": "Pizza Base",
+   "brand": "BakeHouse",
+   "categoryId": "bakery",
+   "packSize": "2 pcs (7 inch)",
+   "price": 45,
+   "mrp": 50,
+   "emoji": "🍕",
+   "tint": "#FDE2D2",
+   "variantGroup": "pizza_base",
+   "description": "Ready-to-top pizza bases. Add sauce, cheese and veggies and bake for 10 minutes.",
+   "highlights": [
+    "Pre-baked",
+    "7 inch",
+    "Pack of 2"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "265 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "9 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "51 g"
+    },
+    {
+     "label": "Fat",
+     "value": "2.6 g"
+    }
+   ],
+   "keywords": "dough",
+   "rating": 4.6,
+   "ratingCount": 1789
+  },
+  {
+   "id": "sn_chips_52",
+   "name": "Classic Salted Chips",
+   "brand": "CrunchCo",
+   "categoryId": "snacks",
+   "packSize": "52 g",
+   "price": 20,
+   "mrp": 20,
+   "emoji": "🥔",
+   "tint": "#FFF1C9",
+   "variantGroup": "chips",
+   "description": "Thin, crispy potato chips with just the right amount of salt.",
+   "highlights": [
+    "Made from fresh potatoes",
+    "No MSG",
+    "Zero trans fat"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "544 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "6.6 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "52 g"
+    },
+    {
+     "label": "Fat",
+     "value": "34 g"
+    }
+   ],
+   "keywords": "wafers crisps",
+   "rating": 4.8,
+   "ratingCount": 269
+  },
+  {
+   "id": "sn_chips_115",
+   "name": "Classic Salted Chips",
+   "brand": "CrunchCo",
+   "categoryId": "snacks",
+   "packSize": "115 g",
+   "price": 50,
+   "mrp": 50,
+   "emoji": "🥔",
+   "tint": "#FFF1C9",
+   "variantGroup": "chips",
+   "description": "Thin, crispy potato chips with just the right amount of salt.",
+   "highlights": [
+    "Made from fresh potatoes",
+    "No MSG",
+    "Zero trans fat"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "544 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "6.6 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "52 g"
+    },
+    {
+     "label": "Fat",
+     "value": "34 g"
+    }
+   ],
+   "keywords": "wafers crisps",
+   "rating": 4.5,
+   "ratingCount": 2036
+  },
+  {
+   "id": "sn_peanuts",
+   "name": "Masala Peanuts",
+   "brand": "CrunchCo",
+   "categoryId": "snacks",
+   "packSize": "200 g",
+   "price": 60,
+   "mrp": 75,
+   "emoji": "🥜",
+   "tint": "#F6E3C8",
+   "variantGroup": "peanuts",
+   "description": "Crunchy peanuts coated in a spicy gram-flour masala.",
+   "highlights": [
+    "High protein",
+    "Spicy & crunchy",
+    "Resealable pouch"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "560 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "20 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "28 g"
+    },
+    {
+     "label": "Fat",
+     "value": "40 g"
+    }
+   ],
+   "keywords": "namkeen",
+   "rating": 4.0,
+   "ratingCount": 157
+  },
+  {
+   "id": "sn_bhujia",
+   "name": "Aloo Bhujia",
+   "brand": "CrunchCo",
+   "categoryId": "snacks",
+   "packSize": "400 g",
+   "price": 105,
+   "mrp": 120,
+   "emoji": "🥨",
+   "tint": "#FFE8D6",
+   "variantGroup": "bhujia",
+   "description": "Crispy, spicy aloo bhujia — the classic tea-time namkeen.",
+   "highlights": [
+    "Made with besan & potato",
+    "Mildly spicy",
+    "Stays crunchy"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "590 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "11 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "42 g"
+    },
+    {
+     "label": "Fat",
+     "value": "42 g"
+    }
+   ],
+   "keywords": "namkeen sev",
+   "rating": 4.2,
+   "ratingCount": 697
+  },
+  {
+   "id": "sn_popcorn",
+   "name": "Butter Popcorn",
+   "brand": "CrunchCo",
+   "categoryId": "snacks",
+   "packSize": "90 g",
+   "price": 50,
+   "mrp": 60,
+   "emoji": "🍿",
+   "tint": "#FFF6C9",
+   "variantGroup": "popcorn",
+   "description": "Ready-to-pop microwave popcorn with rich butter flavour. Pops in 3 minutes.",
+   "highlights": [
+    "Microwave ready",
+    "Whole grain",
+    "Movie-night favourite"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "480 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "8 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "55 g"
+    },
+    {
+     "label": "Fat",
+     "value": "25 g"
+    }
+   ],
+   "keywords": "movie",
+   "rating": 4.3,
+   "ratingCount": 2029
+  },
+  {
+   "id": "sn_dark_choc",
+   "name": "Dark Chocolate 55%",
+   "brand": "CocoaCraft",
+   "categoryId": "snacks",
+   "packSize": "100 g",
+   "price": 125,
+   "mrp": 150,
+   "emoji": "🍫",
+   "tint": "#EFE3D0",
+   "variantGroup": "dark_chocolate",
+   "description": "Smooth dark chocolate made with single-origin cocoa beans.",
+   "highlights": [
+    "55% cocoa",
+    "Less sugar",
+    "Vegetarian"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "546 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "7 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "51 g"
+    },
+    {
+     "label": "Fat",
+     "value": "34 g"
+    }
+   ],
+   "keywords": "chocolate bar",
+   "rating": 4.5,
+   "ratingCount": 5477
+  },
+  {
+   "id": "sn_milk_choc",
+   "name": "Milk Chocolate",
+   "brand": "CocoaCraft",
+   "categoryId": "snacks",
+   "packSize": "50 g",
+   "price": 45,
+   "mrp": 50,
+   "emoji": "🍫",
+   "tint": "#F2E2D2",
+   "variantGroup": "milk_chocolate",
+   "description": "Creamy milk chocolate that melts in your mouth.",
+   "highlights": [
+    "Made with milk solids",
+    "Creamy",
+    "Perfect for gifting"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "535 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "7.7 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "59 g"
+    },
+    {
+     "label": "Fat",
+     "value": "30 g"
+    }
+   ],
+   "keywords": "chocolate bar",
+   "rating": 4.4,
+   "ratingCount": 3682
+  },
+  {
+   "id": "sn_cream_biscuit",
+   "name": "Chocolate Cream Biscuits",
+   "brand": "CrunchCo",
+   "categoryId": "snacks",
+   "packSize": "120 g",
+   "price": 30,
+   "mrp": 35,
+   "emoji": "🍪",
+   "tint": "#EFE3D0",
+   "variantGroup": "cream_biscuit",
+   "description": "Crunchy chocolate biscuits sandwiched with smooth vanilla cream.",
+   "highlights": [
+    "Twist, lick, dunk",
+    "Vanilla cream filling",
+    "Family favourite"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "480 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "5 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "69 g"
+    },
+    {
+     "label": "Fat",
+     "value": "20 g"
+    }
+   ],
+   "keywords": "cookies",
+   "rating": 4.8,
+   "ratingCount": 9363
+  },
+  {
+   "id": "sn_digestive",
+   "name": "Digestive Biscuits",
+   "brand": "CrunchCo",
+   "categoryId": "snacks",
+   "packSize": "250 g",
+   "price": 70,
+   "mrp": 80,
+   "emoji": "🍪",
+   "tint": "#F6E3C8",
+   "variantGroup": "digestive",
+   "description": "Wholesome whole-wheat digestive biscuits with a light, crumbly bite.",
+   "highlights": [
+    "Whole wheat",
+    "High fibre",
+    "Light & crumbly"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "478 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "7 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "65 g"
+    },
+    {
+     "label": "Fat",
+     "value": "21 g"
+    },
+    {
+     "label": "Dietary fibre",
+     "value": "5.5 g"
+    }
+   ],
+   "keywords": "cookies",
+   "rating": 4.1,
+   "ratingCount": 243
+  },
+  {
+   "id": "sn_noodles_4",
+   "name": "Masala Instant Noodles",
+   "brand": "QuickBite",
+   "categoryId": "snacks",
+   "packSize": "4 x 70 g",
+   "price": 56,
+   "mrp": 60,
+   "emoji": "🍜",
+   "tint": "#FFE8D6",
+   "variantGroup": "noodles",
+   "description": "Two-minute masala noodles with a spicy, tangy tastemaker.",
+   "highlights": [
+    "Ready in 2 minutes",
+    "Spicy masala tastemaker",
+    "Pack of 4"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "455 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "8.6 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "62 g"
+    },
+    {
+     "label": "Fat",
+     "value": "19 g"
+    }
+   ],
+   "keywords": "maggi ramen",
+   "rating": 4.1,
+   "ratingCount": 11636
+  },
+  {
+   "id": "sn_noodles_8",
+   "name": "Masala Instant Noodles",
+   "brand": "QuickBite",
+   "categoryId": "snacks",
+   "packSize": "8 x 70 g",
+   "price": 110,
+   "mrp": 120,
+   "emoji": "🍜",
+   "tint": "#FFE8D6",
+   "variantGroup": "noodles",
+   "description": "Two-minute masala noodles with a spicy, tangy tastemaker.",
+   "highlights": [
+    "Ready in 2 minutes",
+    "Spicy masala tastemaker",
+    "Pack of 8"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "455 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "8.6 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "62 g"
+    },
+    {
+     "label": "Fat",
+     "value": "19 g"
+    }
+   ],
+   "keywords": "maggi ramen",
+   "rating": 4.2,
+   "ratingCount": 846
+  },
+  {
+   "id": "sn_nachos",
+   "name": "Cheese Nachos",
+   "brand": "CrunchCo",
+   "categoryId": "snacks",
+   "packSize": "150 g",
+   "price": 65,
+   "mrp": 80,
+   "emoji": "🌮",
+   "tint": "#FFF1C9",
+   "variantGroup": "nachos",
+   "description": "Crunchy corn tortilla chips with a zesty cheese seasoning.",
+   "highlights": [
+    "Made from corn",
+    "Cheesy & crunchy",
+    "Pair with salsa"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "500 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "7 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "62 g"
+    },
+    {
+     "label": "Fat",
+     "value": "25 g"
+    }
+   ],
+   "keywords": "tortilla chips",
+   "rating": 4.7,
+   "ratingCount": 3322
+  },
+  {
+   "id": "sn_trail_mix",
+   "name": "Trail Mix",
+   "brand": "NutriNest",
+   "categoryId": "snacks",
+   "packSize": "200 g",
+   "price": 199,
+   "mrp": 249,
+   "emoji": "🥜",
+   "tint": "#EFE3D0",
+   "variantGroup": "trail_mix",
+   "description": "A wholesome mix of almonds, cashews, cranberries, pumpkin and sunflower seeds.",
+   "highlights": [
+    "No added sugar",
+    "Rich in good fats",
+    "Resealable zip pouch"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "520 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "15 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "38 g"
+    },
+    {
+     "label": "Fat",
+     "value": "35 g"
+    }
+   ],
+   "keywords": "dry fruits nuts healthy",
+   "rating": 4.0,
+   "ratingCount": 478
+  },
+  {
+   "id": "sn_makhana",
+   "name": "Peri Peri Makhana",
+   "brand": "NutriNest",
+   "categoryId": "snacks",
+   "packSize": "70 g",
+   "price": 99,
+   "mrp": 125,
+   "emoji": "🍘",
+   "tint": "#FDE2D2",
+   "variantGroup": "makhana",
+   "description": "Roasted fox nuts tossed in a fiery peri peri seasoning. Light, crunchy and guilt-free.",
+   "highlights": [
+    "Roasted, not fried",
+    "Gluten free",
+    "High in protein"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "380 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "10 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "66 g"
+    },
+    {
+     "label": "Fat",
+     "value": "8 g"
+    }
+   ],
+   "keywords": "fox nuts healthy",
+   "rating": 4.2,
+   "ratingCount": 10205
+  },
+  {
+   "id": "bv_orange_juice",
+   "name": "Orange Juice",
+   "brand": "SunSip",
+   "categoryId": "beverages",
+   "packSize": "1 L",
+   "price": 110,
+   "mrp": 130,
+   "emoji": "🍊",
+   "tint": "#FFE8D6",
+   "variantGroup": "orange_juice",
+   "description": "100% orange juice with no added sugar. Packed with vitamin C.",
+   "highlights": [
+    "No added sugar",
+    "100% juice",
+    "Refrigerate after opening"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "45 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "0.7 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "10.4 g"
+    },
+    {
+     "label": "Fat",
+     "value": "0.2 g"
+    }
+   ],
+   "keywords": "drink",
+   "rating": 4.2,
+   "ratingCount": 2686
+  },
+  {
+   "id": "bv_mixed_fruit",
+   "name": "Mixed Fruit Juice",
+   "brand": "SunSip",
+   "categoryId": "beverages",
+   "packSize": "1 L",
+   "price": 99,
+   "mrp": 120,
+   "emoji": "🧃",
+   "tint": "#FDE7E4",
+   "variantGroup": "mixed_fruit",
+   "description": "A delicious blend of apple, mango, guava and pineapple.",
+   "highlights": [
+    "Blend of 9 fruits",
+    "Rich in vitamin C",
+    "Tetra pack"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "56 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "0.3 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "13.9 g"
+    },
+    {
+     "label": "Fat",
+     "value": "0 g"
+    }
+   ],
+   "keywords": "drink",
+   "rating": 4.4,
+   "ratingCount": 8594
+  },
+  {
+   "id": "bv_cola_750",
+   "name": "Cola",
+   "brand": "FizzUp",
+   "categoryId": "beverages",
+   "packSize": "750 ml",
+   "price": 40,
+   "mrp": 40,
+   "emoji": "🥤",
+   "tint": "#F3E5E1",
+   "variantGroup": "cola",
+   "description": "Chilled, fizzy cola with a classic caramel taste.",
+   "highlights": [
+    "Serve chilled",
+    "Classic taste",
+    "PET bottle"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "44 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "0 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "11 g"
+    },
+    {
+     "label": "Fat",
+     "value": "0 g"
+    }
+   ],
+   "keywords": "soft drink soda",
+   "rating": 4.2,
+   "ratingCount": 3514
+  },
+  {
+   "id": "bv_cola_2l",
+   "name": "Cola",
+   "brand": "FizzUp",
+   "categoryId": "beverages",
+   "packSize": "2.25 L",
+   "price": 95,
+   "mrp": 99,
+   "emoji": "🥤",
+   "tint": "#F3E5E1",
+   "variantGroup": "cola",
+   "description": "Chilled, fizzy cola with a classic caramel taste.",
+   "highlights": [
+    "Serve chilled",
+    "Party pack",
+    "PET bottle"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "44 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "0 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "11 g"
+    },
+    {
+     "label": "Fat",
+     "value": "0 g"
+    }
+   ],
+   "keywords": "soft drink soda",
+   "rating": 4.3,
+   "ratingCount": 1061
+  },
+  {
+   "id": "bv_lime_soda",
+   "name": "Lime Soda",
+   "brand": "FizzUp",
+   "categoryId": "beverages",
+   "packSize": "600 ml",
+   "price": 30,
+   "mrp": 35,
+   "emoji": "🍋",
+   "tint": "#EAF5DA",
+   "variantGroup": "lime_soda",
+   "description": "Clear lemon-lime soda with a crisp, refreshing zing.",
+   "highlights": [
+    "Caffeine free",
+    "Serve chilled",
+    "PET bottle"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "40 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "0 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "10 g"
+    },
+    {
+     "label": "Fat",
+     "value": "0 g"
+    }
+   ],
+   "keywords": "soft drink",
+   "rating": 4.3,
+   "ratingCount": 335
+  },
+  {
+   "id": "bv_coconut_water",
+   "name": "Tender Coconut Water",
+   "brand": "SunSip",
+   "categoryId": "beverages",
+   "packSize": "200 ml",
+   "price": 45,
+   "mrp": 55,
+   "emoji": "🥥",
+   "tint": "#E8F4EA",
+   "variantGroup": "coconut_water",
+   "description": "Natural tender coconut water — hydrating, refreshing and full of electrolytes.",
+   "highlights": [
+    "No added sugar",
+    "Natural electrolytes",
+    "Not from concentrate"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "19 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "0.2 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "4.5 g"
+    },
+    {
+     "label": "Fat",
+     "value": "0 g"
+    }
+   ],
+   "keywords": "nariyal pani",
+   "rating": 4.2,
+   "ratingCount": 536
+  },
+  {
+   "id": "bv_green_tea",
+   "name": "Green Tea",
+   "brand": "LeafCraft",
+   "categoryId": "beverages",
+   "packSize": "25 bags",
+   "price": 145,
+   "mrp": 175,
+   "emoji": "🍵",
+   "tint": "#E3F4E1",
+   "variantGroup": "green_tea",
+   "description": "Light, refreshing green tea from Darjeeling estates in convenient tea bags.",
+   "highlights": [
+    "Rich in antioxidants",
+    "Darjeeling leaves",
+    "25 tea bags"
+   ],
+   "nutrition": [],
+   "keywords": "tea healthy",
+   "rating": 4.3,
+   "ratingCount": 557
+  },
+  {
+   "id": "bv_assam_tea",
+   "name": "Premium Assam Tea",
+   "brand": "LeafCraft",
+   "categoryId": "beverages",
+   "packSize": "500 g",
+   "price": 249,
+   "mrp": 290,
+   "emoji": "☕",
+   "tint": "#F2E2D2",
+   "variantGroup": "assam_tea",
+   "description": "Strong, malty CTC tea from Assam gardens for the perfect kadak chai.",
+   "highlights": [
+    "Strong & malty",
+    "Rich colour",
+    "CTC granules"
+   ],
+   "nutrition": [],
+   "keywords": "chai patti",
+   "rating": 4.5,
+   "ratingCount": 2401
+  },
+  {
+   "id": "bv_coffee_50",
+   "name": "Instant Coffee",
+   "brand": "BrewMaster",
+   "categoryId": "beverages",
+   "packSize": "50 g",
+   "price": 165,
+   "mrp": 180,
+   "emoji": "☕",
+   "tint": "#EFE3D0",
+   "variantGroup": "coffee",
+   "description": "Rich, aromatic instant coffee made from 100% coffee beans.",
+   "highlights": [
+    "100% pure coffee",
+    "Rich aroma",
+    "Glass jar"
+   ],
+   "nutrition": [],
+   "keywords": "nescafe",
+   "rating": 4.0,
+   "ratingCount": 423
+  },
+  {
+   "id": "bv_coffee_100",
+   "name": "Instant Coffee",
+   "brand": "BrewMaster",
+   "categoryId": "beverages",
+   "packSize": "100 g",
+   "price": 299,
+   "mrp": 340,
+   "emoji": "☕",
+   "tint": "#EFE3D0",
+   "variantGroup": "coffee",
+   "description": "Rich, aromatic instant coffee made from 100% coffee beans.",
+   "highlights": [
+    "100% pure coffee",
+    "Rich aroma",
+    "Glass jar"
+   ],
+   "nutrition": [],
+   "keywords": "nescafe",
+   "rating": 4.3,
+   "ratingCount": 496
+  },
+  {
+   "id": "bv_water",
+   "name": "Packaged Drinking Water",
+   "brand": "AquaPure",
+   "categoryId": "beverages",
+   "packSize": "1 L",
+   "price": 20,
+   "mrp": 20,
+   "emoji": "💧",
+   "tint": "#E6F0FB",
+   "variantGroup": "water",
+   "description": "Purified drinking water treated with multi-stage purification and added minerals.",
+   "highlights": [
+    "Added minerals",
+    "BIS certified",
+    "Recyclable bottle"
+   ],
+   "nutrition": [],
+   "keywords": "bottle",
+   "rating": 4.4,
+   "ratingCount": 7503
+  },
+  {
+   "id": "bv_energy",
+   "name": "Energy Drink",
+   "brand": "FizzUp",
+   "categoryId": "beverages",
+   "packSize": "250 ml",
+   "price": 110,
+   "mrp": 125,
+   "emoji": "⚡",
+   "tint": "#E6F0FB",
+   "variantGroup": "energy_drink",
+   "description": "Carbonated energy drink with caffeine and B-vitamins.",
+   "highlights": [
+    "Contains caffeine",
+    "B-vitamins",
+    "Not for children"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "45 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "0 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "11 g"
+    },
+    {
+     "label": "Fat",
+     "value": "0 g"
+    }
+   ],
+   "keywords": "red bull",
+   "rating": 4.1,
+   "ratingCount": 1679
+  },
+  {
+   "id": "bv_cold_coffee",
+   "name": "Cold Coffee",
+   "brand": "BrewMaster",
+   "categoryId": "beverages",
+   "packSize": "200 ml",
+   "price": 45,
+   "mrp": 50,
+   "emoji": "☕",
+   "tint": "#F2E2D2",
+   "variantGroup": "cold_coffee",
+   "description": "Ready-to-drink cold coffee made with real milk and coffee.",
+   "highlights": [
+    "Made with real milk",
+    "Serve chilled",
+    "Ready to drink"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "80 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "3 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "12 g"
+    },
+    {
+     "label": "Fat",
+     "value": "2.2 g"
+    }
+   ],
+   "keywords": "drink",
+   "rating": 4.8,
+   "ratingCount": 7206
+  },
+  {
+   "id": "bv_mango_drink",
+   "name": "Mango Drink",
+   "brand": "SunSip",
+   "categoryId": "beverages",
+   "packSize": "600 ml",
+   "price": 38,
+   "mrp": 40,
+   "emoji": "🥭",
+   "tint": "#FFF1C9",
+   "variantGroup": "mango_drink",
+   "description": "Thick mango drink made with Alphonso and Totapuri pulp.",
+   "highlights": [
+    "Real mango pulp",
+    "Serve chilled",
+    "PET bottle"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "62 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "0 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "15.5 g"
+    },
+    {
+     "label": "Fat",
+     "value": "0 g"
+    }
+   ],
+   "keywords": "juice",
+   "rating": 4.3,
+   "ratingCount": 3919
+  },
+  {
+   "id": "st_atta_5",
+   "name": "Whole Wheat Atta",
+   "brand": "GoldenGrain",
+   "categoryId": "staples",
+   "packSize": "5 kg",
+   "price": 249,
+   "mrp": 299,
+   "emoji": "🌾",
+   "tint": "#F6EEDC",
+   "variantGroup": "atta",
+   "description": "Chakki-fresh whole wheat atta for soft, fluffy rotis every day.",
+   "highlights": [
+    "100% whole wheat",
+    "Chakki ground",
+    "Rich in fibre"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "341 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "12 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "69 g"
+    },
+    {
+     "label": "Fat",
+     "value": "1.7 g"
+    },
+    {
+     "label": "Dietary fibre",
+     "value": "11 g"
+    }
+   ],
+   "keywords": "flour wheat",
+   "rating": 4.3,
+   "ratingCount": 9806
+  },
+  {
+   "id": "st_atta_10",
+   "name": "Whole Wheat Atta",
+   "brand": "GoldenGrain",
+   "categoryId": "staples",
+   "packSize": "10 kg",
+   "price": 479,
+   "mrp": 575,
+   "emoji": "🌾",
+   "tint": "#F6EEDC",
+   "variantGroup": "atta",
+   "description": "Chakki-fresh whole wheat atta for soft, fluffy rotis every day.",
+   "highlights": [
+    "100% whole wheat",
+    "Chakki ground",
+    "Rich in fibre"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "341 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "12 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "69 g"
+    },
+    {
+     "label": "Fat",
+     "value": "1.7 g"
+    },
+    {
+     "label": "Dietary fibre",
+     "value": "11 g"
+    }
+   ],
+   "keywords": "flour wheat",
+   "rating": 4.7,
+   "ratingCount": 5176
+  },
+  {
+   "id": "st_basmati_1",
+   "name": "Basmati Rice",
+   "brand": "RoyalHarvest",
+   "categoryId": "staples",
+   "packSize": "1 kg",
+   "price": 149,
+   "mrp": 199,
+   "emoji": "🍚",
+   "tint": "#F4F2EE",
+   "variantGroup": "basmati",
+   "description": "Aged long-grain basmati rice that cooks up fluffy and fragrant.",
+   "highlights": [
+    "Aged 12 months",
+    "Extra-long grains",
+    "Aromatic"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "349 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "8 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "78 g"
+    },
+    {
+     "label": "Fat",
+     "value": "0.5 g"
+    }
+   ],
+   "keywords": "chawal biryani",
+   "rating": 4.8,
+   "ratingCount": 10648
+  },
+  {
+   "id": "st_basmati_5",
+   "name": "Basmati Rice",
+   "brand": "RoyalHarvest",
+   "categoryId": "staples",
+   "packSize": "5 kg",
+   "price": 699,
+   "mrp": 899,
+   "emoji": "🍚",
+   "tint": "#F4F2EE",
+   "variantGroup": "basmati",
+   "description": "Aged long-grain basmati rice that cooks up fluffy and fragrant.",
+   "highlights": [
+    "Aged 12 months",
+    "Extra-long grains",
+    "Aromatic"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "349 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "8 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "78 g"
+    },
+    {
+     "label": "Fat",
+     "value": "0.5 g"
+    }
+   ],
+   "keywords": "chawal biryani",
+   "rating": 4.4,
+   "ratingCount": 888
+  },
+  {
+   "id": "st_sona_masoori",
+   "name": "Sona Masoori Rice",
+   "brand": "RoyalHarvest",
+   "categoryId": "staples",
+   "packSize": "5 kg",
+   "price": 379,
+   "mrp": 450,
+   "emoji": "🍚",
+   "tint": "#F4F2EE",
+   "variantGroup": "sona_masoori",
+   "description": "Lightweight, aromatic Sona Masoori rice — ideal for daily meals.",
+   "highlights": [
+    "Light & easy to digest",
+    "Low starch",
+    "Cleaned and sorted"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "345 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "6.8 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "79 g"
+    },
+    {
+     "label": "Fat",
+     "value": "0.5 g"
+    }
+   ],
+   "keywords": "chawal",
+   "rating": 4.3,
+   "ratingCount": 1496
+  },
+  {
+   "id": "st_toor_dal",
+   "name": "Toor Dal",
+   "brand": "GoldenGrain",
+   "categoryId": "staples",
+   "packSize": "1 kg",
+   "price": 165,
+   "mrp": 199,
+   "emoji": "🍲",
+   "tint": "#FFF1C9",
+   "variantGroup": "toor_dal",
+   "description": "Unpolished toor dal that cooks soft and creamy — perfect for sambar and dal tadka.",
+   "highlights": [
+    "Unpolished",
+    "Rich in protein",
+    "Machine cleaned"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "343 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "22 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "63 g"
+    },
+    {
+     "label": "Fat",
+     "value": "1.5 g"
+    }
+   ],
+   "keywords": "arhar pulses lentils",
+   "rating": 4.1,
+   "ratingCount": 8261
+  },
+  {
+   "id": "st_moong_dal",
+   "name": "Moong Dal",
+   "brand": "GoldenGrain",
+   "categoryId": "staples",
+   "packSize": "500 g",
+   "price": 79,
+   "mrp": 95,
+   "emoji": "🍲",
+   "tint": "#F2F7D9",
+   "variantGroup": "moong_dal",
+   "description": "Split yellow moong dal — light, nutritious and quick to cook.",
+   "highlights": [
+    "Unpolished",
+    "Easy to digest",
+    "High protein"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "347 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "24 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "63 g"
+    },
+    {
+     "label": "Fat",
+     "value": "1.2 g"
+    }
+   ],
+   "keywords": "pulses lentils",
+   "rating": 4.2,
+   "ratingCount": 1708
+  },
+  {
+   "id": "st_chana_dal",
+   "name": "Chana Dal",
+   "brand": "GoldenGrain",
+   "categoryId": "staples",
+   "packSize": "1 kg",
+   "price": 99,
+   "mrp": 120,
+   "emoji": "🍲",
+   "tint": "#FFF1C9",
+   "variantGroup": "chana_dal",
+   "description": "Bold chana dal with a nutty flavour for dals, halwa and snacks.",
+   "highlights": [
+    "Unpolished",
+    "High fibre",
+    "Machine cleaned"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "360 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "20 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "60 g"
+    },
+    {
+     "label": "Fat",
+     "value": "5 g"
+    }
+   ],
+   "keywords": "pulses lentils",
+   "rating": 4.6,
+   "ratingCount": 2000
+  },
+  {
+   "id": "st_sunflower_oil",
+   "name": "Refined Sunflower Oil",
+   "brand": "SunPure",
+   "categoryId": "staples",
+   "packSize": "1 L",
+   "price": 149,
+   "mrp": 175,
+   "emoji": "🌻",
+   "tint": "#FFF6C9",
+   "variantGroup": "sunflower_oil",
+   "description": "Light, healthy refined sunflower oil, rich in vitamin E.",
+   "highlights": [
+    "Rich in vitamin E",
+    "Light & non-sticky",
+    "Pouch pack"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "900 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "0 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "0 g"
+    },
+    {
+     "label": "Fat",
+     "value": "100 g"
+    }
+   ],
+   "keywords": "cooking oil",
+   "rating": 4.3,
+   "ratingCount": 3119
+  },
+  {
+   "id": "st_mustard_oil",
+   "name": "Kachi Ghani Mustard Oil",
+   "brand": "SunPure",
+   "categoryId": "staples",
+   "packSize": "1 L",
+   "price": 169,
+   "mrp": 199,
+   "emoji": "🌼",
+   "tint": "#FFF1C9",
+   "variantGroup": "mustard_oil",
+   "description": "Cold-pressed kachi ghani mustard oil with a pungent aroma.",
+   "highlights": [
+    "Cold pressed",
+    "Strong pungency",
+    "Bottle pack"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "884 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "0 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "0 g"
+    },
+    {
+     "label": "Fat",
+     "value": "100 g"
+    }
+   ],
+   "keywords": "sarson cooking oil",
+   "rating": 4.8,
+   "ratingCount": 10474
+  },
+  {
+   "id": "st_salt",
+   "name": "Iodised Salt",
+   "brand": "GoldenGrain",
+   "categoryId": "staples",
+   "packSize": "1 kg",
+   "price": 28,
+   "mrp": 30,
+   "emoji": "🧂",
+   "tint": "#F2F5FA",
+   "variantGroup": "salt",
+   "description": "Free-flowing vacuum evaporated iodised salt.",
+   "highlights": [
+    "Iodised",
+    "Free flowing",
+    "Vacuum evaporated"
+   ],
+   "nutrition": [],
+   "keywords": "namak",
+   "rating": 4.5,
+   "ratingCount": 4518
+  },
+  {
+   "id": "st_sugar",
+   "name": "Sugar",
+   "brand": "GoldenGrain",
+   "categoryId": "staples",
+   "packSize": "1 kg",
+   "price": 48,
+   "mrp": 55,
+   "emoji": "🍬",
+   "tint": "#F4F2EE",
+   "variantGroup": "sugar",
+   "description": "Clean, sulphur-free crystal sugar.",
+   "highlights": [
+    "Sulphur free",
+    "Uniform crystals",
+    "Hygienically packed"
+   ],
+   "nutrition": [],
+   "keywords": "cheeni",
+   "rating": 4.6,
+   "ratingCount": 263
+  },
+  {
+   "id": "st_chilli",
+   "name": "Red Chilli Powder",
+   "brand": "SpiceRoute",
+   "categoryId": "staples",
+   "packSize": "100 g",
+   "price": 42,
+   "mrp": 50,
+   "emoji": "🌶️",
+   "tint": "#FDE2E0",
+   "variantGroup": "chilli",
+   "description": "Vibrant red chilli powder made from sun-dried Byadgi chillies.",
+   "highlights": [
+    "Bright colour",
+    "Medium heat",
+    "No added colour"
+   ],
+   "nutrition": [],
+   "keywords": "masala spices mirch",
+   "rating": 4.6,
+   "ratingCount": 4907
+  },
+  {
+   "id": "st_garam_masala",
+   "name": "Garam Masala",
+   "brand": "SpiceRoute",
+   "categoryId": "staples",
+   "packSize": "50 g",
+   "price": 55,
+   "mrp": 65,
+   "emoji": "🍛",
+   "tint": "#F2E2D2",
+   "variantGroup": "garam_masala",
+   "description": "A fragrant blend of 13 whole spices, slow-roasted and ground.",
+   "highlights": [
+    "13 whole spices",
+    "Slow roasted",
+    "Aromatic"
+   ],
+   "nutrition": [],
+   "keywords": "masala spices",
+   "rating": 4.1,
+   "ratingCount": 1038
+  },
+  {
+   "id": "st_poha",
+   "name": "Thick Poha",
+   "brand": "GoldenGrain",
+   "categoryId": "staples",
+   "packSize": "500 g",
+   "price": 45,
+   "mrp": 55,
+   "emoji": "🍚",
+   "tint": "#F4F2EE",
+   "variantGroup": "poha",
+   "description": "Thick flattened rice for a quick and wholesome breakfast.",
+   "highlights": [
+    "Thick flakes",
+    "Cleaned",
+    "Quick to cook"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "346 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "6.6 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "77 g"
+    },
+    {
+     "label": "Fat",
+     "value": "1.2 g"
+    }
+   ],
+   "keywords": "flattened rice breakfast",
+   "rating": 4.8,
+   "ratingCount": 1044
+  },
+  {
+   "id": "st_oats",
+   "name": "Rolled Oats",
+   "brand": "NutriNest",
+   "categoryId": "staples",
+   "packSize": "1 kg",
+   "price": 175,
+   "mrp": 210,
+   "emoji": "🥣",
+   "tint": "#F6EEDC",
+   "variantGroup": "oats",
+   "description": "100% whole grain rolled oats — a heart-healthy start to the day.",
+   "highlights": [
+    "100% whole grain",
+    "High in fibre",
+    "Cooks in 3 minutes"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "389 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "13 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "66 g"
+    },
+    {
+     "label": "Fat",
+     "value": "7 g"
+    },
+    {
+     "label": "Dietary fibre",
+     "value": "10 g"
+    }
+   ],
+   "keywords": "breakfast healthy",
+   "rating": 4.2,
+   "ratingCount": 9203
+  },
+  {
+   "id": "st_honey",
+   "name": "Pure Honey",
+   "brand": "NutriNest",
+   "categoryId": "staples",
+   "packSize": "500 g",
+   "price": 225,
+   "mrp": 275,
+   "emoji": "🍯",
+   "tint": "#FFF1C9",
+   "variantGroup": "honey",
+   "description": "Pure, unadulterated multi-floral honey sourced from Himalayan beekeepers.",
+   "highlights": [
+    "NMR tested",
+    "No added sugar",
+    "Multi-floral"
+   ],
+   "nutrition": [
+    {
+     "label": "Energy",
+     "value": "304 kcal"
+    },
+    {
+     "label": "Protein",
+     "value": "0.3 g"
+    },
+    {
+     "label": "Carbohydrates",
+     "value": "82 g"
+    },
+    {
+     "label": "Fat",
+     "value": "0 g"
+    }
+   ],
+   "keywords": "shahad",
+   "rating": 4.0,
+   "ratingCount": 9406
+  },
+  {
+   "id": "pc_face_wash",
+   "name": "Neem Face Wash",
+   "brand": "PureGlow",
+   "categoryId": "personal_care",
+   "packSize": "100 ml",
+   "price": 129,
+   "mrp": 155,
+   "emoji": "🧴",
+   "tint": "#E3F4E1",
+   "variantGroup": "face_wash",
+   "description": "Purifying neem and turmeric face wash that clears impurities and prevents pimples.",
+   "highlights": [
+    "Neem & turmeric",
+    "Soap free",
+    "Suitable for oily skin"
+   ],
+   "nutrition": [],
+   "keywords": "skincare",
+   "rating": 4.5,
+   "ratingCount": 792
+  },
+  {
+   "id": "pc_aloe_gel",
+   "name": "Aloe Vera Gel",
+   "brand": "PureGlow",
+   "categoryId": "personal_care",
+   "packSize": "150 ml",
+   "price": 149,
+   "mrp": 199,
+   "emoji": "🌵",
+   "tint": "#E3F4E1",
+   "variantGroup": "aloe_gel",
+   "description": "Multi-purpose aloe vera gel to soothe and hydrate skin and hair.",
+   "highlights": [
+    "99% pure aloe vera",
+    "Non-sticky",
+    "Paraben free"
+   ],
+   "nutrition": [],
+   "keywords": "skincare",
+   "rating": 4.4,
+   "ratingCount": 874
+  },
+  {
+   "id": "pc_shampoo",
+   "name": "Herbal Shampoo",
+   "brand": "HerbalVeda",
+   "categoryId": "personal_care",
+   "packSize": "340 ml",
+   "price": 245,
+   "mrp": 299,
+   "emoji": "🧴",
+   "tint": "#EEE7F8",
+   "variantGroup": "shampoo",
+   "description": "Gentle herbal shampoo with bhringraj and amla for strong, shiny hair.",
+   "highlights": [
+    "Bhringraj & amla",
+    "Sulphate free",
+    "For all hair types"
+   ],
+   "nutrition": [],
+   "keywords": "hair care",
+   "rating": 4.2,
+   "ratingCount": 3357
+  },
+  {
+   "id": "pc_toothpaste",
+   "name": "Fresh Mint Toothpaste",
+   "brand": "SmileFresh",
+   "categoryId": "personal_care",
+   "packSize": "150 g",
+   "price": 99,
+   "mrp": 115,
+   "emoji": "🦷",
+   "tint": "#E6F0FB",
+   "variantGroup": "toothpaste",
+   "description": "Fluoride toothpaste with mint crystals for a long-lasting fresh breath.",
+   "highlights": [
+    "Cavity protection",
+    "Fresh mint",
+    "Strengthens enamel"
+   ],
+   "nutrition": [],
+   "keywords": "oral care",
+   "rating": 4.6,
+   "ratingCount": 702
+  },
+  {
+   "id": "pc_soap",
+   "name": "Sandal Bathing Soap",
+   "brand": "HerbalVeda",
+   "categoryId": "personal_care",
+   "packSize": "4 x 100 g",
+   "price": 160,
+   "mrp": 192,
+   "emoji": "🧼",
+   "tint": "#F6E3C8",
+   "variantGroup": "soap",
+   "description": "Classic sandalwood soap with a long-lasting fragrance.",
+   "highlights": [
+    "Pure sandalwood oil",
+    "Moisturising",
+    "Pack of 4"
+   ],
+   "nutrition": [],
+   "keywords": "bath",
+   "rating": 4.5,
+   "ratingCount": 262
+  },
+  {
+   "id": "pc_handwash",
+   "name": "Hand Wash Refill",
+   "brand": "PureGlow",
+   "categoryId": "personal_care",
+   "packSize": "750 ml",
+   "price": 99,
+   "mrp": 129,
+   "emoji": "🧼",
+   "tint": "#E3F4E1",
+   "variantGroup": "handwash",
+   "description": "Germ-protection hand wash with a refreshing lime fragrance.",
+   "highlights": [
+    "Kills 99.9% germs",
+    "Gentle on hands",
+    "Economical refill"
+   ],
+   "nutrition": [],
+   "keywords": "hygiene",
+   "rating": 4.3,
+   "ratingCount": 2998
+  },
+  {
+   "id": "pc_hair_oil",
+   "name": "Coconut Hair Oil",
+   "brand": "HerbalVeda",
+   "categoryId": "personal_care",
+   "packSize": "300 ml",
+   "price": 135,
+   "mrp": 150,
+   "emoji": "🥥",
+   "tint": "#E8F4EA",
+   "variantGroup": "hair_oil",
+   "description": "100% pure coconut oil for nourished, healthy hair.",
+   "highlights": [
+    "100% pure",
+    "Cold processed",
+    "Multi-purpose"
+   ],
+   "nutrition": [],
+   "keywords": "hair care",
+   "rating": 4.0,
+   "ratingCount": 1235
+  },
+  {
+   "id": "pc_body_lotion",
+   "name": "Cocoa Butter Body Lotion",
+   "brand": "PureGlow",
+   "categoryId": "personal_care",
+   "packSize": "400 ml",
+   "price": 299,
+   "mrp": 399,
+   "emoji": "🧴",
+   "tint": "#F2E2D2",
+   "variantGroup": "body_lotion",
+   "description": "Deep-moisturising body lotion with cocoa butter for 48-hour softness.",
+   "highlights": [
+    "48-hour moisture",
+    "Cocoa butter",
+    "Non-greasy"
+   ],
+   "nutrition": [],
+   "keywords": "skincare",
+   "rating": 4.2,
+   "ratingCount": 855
+  },
+  {
+   "id": "pc_shaving_foam",
+   "name": "Shaving Foam Sensitive",
+   "brand": "SmoothEdge",
+   "categoryId": "personal_care",
+   "packSize": "200 g",
+   "price": 199,
+   "mrp": 240,
+   "emoji": "🪒",
+   "tint": "#E6F0FB",
+   "variantGroup": "shaving_foam",
+   "description": "Rich, creamy shaving foam with aloe for a smooth, irritation-free shave.",
+   "highlights": [
+    "For sensitive skin",
+    "With aloe vera",
+    "Rich lather"
+   ],
+   "nutrition": [],
+   "keywords": "grooming men",
+   "rating": 4.2,
+   "ratingCount": 237
+  },
+  {
+   "id": "pc_sunscreen",
+   "name": "Sunscreen SPF 50",
+   "brand": "PureGlow",
+   "categoryId": "personal_care",
+   "packSize": "50 g",
+   "price": 349,
+   "mrp": 449,
+   "emoji": "☀️",
+   "tint": "#FFF6C9",
+   "variantGroup": "sunscreen",
+   "description": "Lightweight, matte-finish sunscreen with broad-spectrum SPF 50 PA+++ protection.",
+   "highlights": [
+    "SPF 50 PA+++",
+    "No white cast",
+    "Water resistant"
+   ],
+   "nutrition": [],
+   "keywords": "skincare spf",
+   "rating": 4.7,
+   "ratingCount": 1354
+  },
+  {
+   "id": "pc_lip_balm",
+   "name": "Strawberry Lip Balm",
+   "brand": "PureGlow",
+   "categoryId": "personal_care",
+   "packSize": "4.5 g",
+   "price": 99,
+   "mrp": 120,
+   "emoji": "💄",
+   "tint": "#FCE4EC",
+   "variantGroup": "lip_balm",
+   "description": "Nourishing tinted lip balm with shea butter and strawberry extract.",
+   "highlights": [
+    "Shea butter",
+    "Light pink tint",
+    "SPF 15"
+   ],
+   "nutrition": [],
+   "keywords": "lips",
+   "rating": 4.6,
+   "ratingCount": 8278
+  },
+  {
+   "id": "pc_deo",
+   "name": "Fresh Aqua Deodorant",
+   "brand": "SmoothEdge",
+   "categoryId": "personal_care",
+   "packSize": "150 ml",
+   "price": 199,
+   "mrp": 249,
+   "emoji": "🌸",
+   "tint": "#E6F0FB",
+   "variantGroup": "deodorant",
+   "description": "Long-lasting body spray with a fresh aquatic fragrance.",
+   "highlights": [
+    "48-hour freshness",
+    "No gas, all perfume",
+    "Skin friendly"
+   ],
+   "nutrition": [],
+   "keywords": "perfume body spray",
+   "rating": 4.4,
+   "ratingCount": 727
+  },
+  {
+   "id": "hh_dishwash",
+   "name": "Dishwash Liquid Lemon",
+   "brand": "SparkleHome",
+   "categoryId": "household",
+   "packSize": "500 ml",
+   "price": 105,
+   "mrp": 120,
+   "emoji": "🧽",
+   "tint": "#FFF6C9",
+   "variantGroup": "dishwash",
+   "description": "Concentrated dishwash gel with the power of 100 lemons. Cuts through tough grease.",
+   "highlights": [
+    "Power of 100 lemons",
+    "Gentle on hands",
+    "Concentrated formula"
+   ],
+   "nutrition": [],
+   "keywords": "utensil cleaner vim",
+   "rating": 4.7,
+   "ratingCount": 392
+  },
+  {
+   "id": "hh_detergent_1",
+   "name": "Detergent Powder",
+   "brand": "SparkleHome",
+   "categoryId": "household",
+   "packSize": "1 kg",
+   "price": 120,
+   "mrp": 140,
+   "emoji": "🧺",
+   "tint": "#E6F0FB",
+   "variantGroup": "detergent_powder",
+   "description": "Advanced detergent powder that removes tough stains in a single wash.",
+   "highlights": [
+    "Removes tough stains",
+    "Fresh fragrance",
+    "For bucket & machine wash"
+   ],
+   "nutrition": [],
+   "keywords": "laundry washing",
+   "rating": 4.7,
+   "ratingCount": 855
+  },
+  {
+   "id": "hh_detergent_4",
+   "name": "Detergent Powder",
+   "brand": "SparkleHome",
+   "categoryId": "household",
+   "packSize": "4 kg",
+   "price": 435,
+   "mrp": 520,
+   "emoji": "🧺",
+   "tint": "#E6F0FB",
+   "variantGroup": "detergent_powder",
+   "description": "Advanced detergent powder that removes tough stains in a single wash.",
+   "highlights": [
+    "Removes tough stains",
+    "Fresh fragrance",
+    "For bucket & machine wash"
+   ],
+   "nutrition": [],
+   "keywords": "laundry washing",
+   "rating": 4.4,
+   "ratingCount": 5680
+  },
+  {
+   "id": "hh_liquid_detergent",
+   "name": "Liquid Detergent Front Load",
+   "brand": "SparkleHome",
+   "categoryId": "household",
+   "packSize": "1 L",
+   "price": 199,
+   "mrp": 245,
+   "emoji": "🧺",
+   "tint": "#E2F2F3",
+   "variantGroup": "liquid_detergent",
+   "description": "Low-foam liquid detergent designed for front-load washing machines.",
+   "highlights": [
+    "Front-load formula",
+    "Dissolves completely",
+    "Colour safe"
+   ],
+   "nutrition": [],
+   "keywords": "laundry washing machine",
+   "rating": 4.4,
+   "ratingCount": 462
+  },
+  {
+   "id": "hh_floor_cleaner",
+   "name": "Floor Cleaner Citrus",
+   "brand": "CleanNest",
+   "categoryId": "household",
+   "packSize": "975 ml",
+   "price": 189,
+   "mrp": 219,
+   "emoji": "🧹",
+   "tint": "#FFF1C9",
+   "variantGroup": "floor_cleaner",
+   "description": "Disinfectant floor cleaner that kills 99.9% germs and leaves a citrus fragrance.",
+   "highlights": [
+    "Kills 99.9% germs",
+    "Citrus fragrance",
+    "Safe on all floors"
+   ],
+   "nutrition": [],
+   "keywords": "cleaning phenyl",
+   "rating": 4.1,
+   "ratingCount": 766
+  },
+  {
+   "id": "hh_toilet_cleaner",
+   "name": "Toilet Cleaner",
+   "brand": "CleanNest",
+   "categoryId": "household",
+   "packSize": "500 ml",
+   "price": 99,
+   "mrp": 115,
+   "emoji": "🚽",
+   "tint": "#E6F0FB",
+   "variantGroup": "toilet_cleaner",
+   "description": "Thick toilet cleaning liquid that removes stubborn stains and limescale.",
+   "highlights": [
+    "Removes tough stains",
+    "Angled nozzle",
+    "Kills germs"
+   ],
+   "nutrition": [],
+   "keywords": "bathroom cleaning",
+   "rating": 4.1,
+   "ratingCount": 683
+  },
+  {
+   "id": "hh_garbage_bags",
+   "name": "Garbage Bags Medium",
+   "brand": "CleanNest",
+   "categoryId": "household",
+   "packSize": "30 pcs",
+   "price": 99,
+   "mrp": 130,
+   "emoji": "🗑️",
+   "tint": "#ECEFF1",
+   "variantGroup": "garbage_bags",
+   "description": "Leak-proof, odour-lock garbage bags for kitchen dustbins (19 x 21 inch).",
+   "highlights": [
+    "Medium size",
+    "Leak proof",
+    "Easy-tie handles"
+   ],
+   "nutrition": [],
+   "keywords": "dustbin bags",
+   "rating": 4.5,
+   "ratingCount": 218
+  },
+  {
+   "id": "hh_kitchen_towel",
+   "name": "Kitchen Towels",
+   "brand": "CleanNest",
+   "categoryId": "household",
+   "packSize": "2 rolls",
+   "price": 110,
+   "mrp": 140,
+   "emoji": "🧻",
+   "tint": "#F4F2EE",
+   "variantGroup": "kitchen_towel",
+   "description": "Super-absorbent 2-ply kitchen towels for spills and wiping.",
+   "highlights": [
+    "2-ply",
+    "Super absorbent",
+    "60 pulls per roll"
+   ],
+   "nutrition": [],
+   "keywords": "tissue paper",
+   "rating": 4.1,
+   "ratingCount": 501
+  },
+  {
+   "id": "hh_toilet_tissue",
+   "name": "Toilet Tissue",
+   "brand": "CleanNest",
+   "categoryId": "household",
+   "packSize": "4 rolls",
+   "price": 160,
+   "mrp": 199,
+   "emoji": "🧻",
+   "tint": "#F4F2EE",
+   "variantGroup": "toilet_tissue",
+   "description": "Soft, 3-ply toilet tissue rolls with 160 pulls each.",
+   "highlights": [
+    "3-ply softness",
+    "160 pulls per roll",
+    "Pack of 4"
+   ],
+   "nutrition": [],
+   "keywords": "toilet paper",
+   "rating": 4.4,
+   "ratingCount": 1567
+  },
+  {
+   "id": "hh_scrub",
+   "name": "Scrub Pads",
+   "brand": "SparkleHome",
+   "categoryId": "household",
+   "packSize": "3 pcs",
+   "price": 45,
+   "mrp": 55,
+   "emoji": "🧽",
+   "tint": "#E3F4E1",
+   "variantGroup": "scrub",
+   "description": "Long-lasting scrub pads that clean tough stains without scratching.",
+   "highlights": [
+    "Does not scratch",
+    "Long lasting",
+    "Pack of 3"
+   ],
+   "nutrition": [],
+   "keywords": "utensil cleaning",
+   "rating": 4.3,
+   "ratingCount": 9782
+  },
+  {
+   "id": "hh_mosquito",
+   "name": "Mosquito Repellent Refill",
+   "brand": "CleanNest",
+   "categoryId": "household",
+   "packSize": "45 ml",
+   "price": 79,
+   "mrp": 89,
+   "emoji": "🦟",
+   "tint": "#E2F2F3",
+   "variantGroup": "mosquito",
+   "description": "Liquid vaporiser refill that keeps mosquitoes away for up to 45 nights.",
+   "highlights": [
+    "Up to 45 nights",
+    "Odourless",
+    "Fits all machines"
+   ],
+   "nutrition": [],
+   "keywords": "repellent",
+   "rating": 4.3,
+   "ratingCount": 2653
+  },
+  {
+   "id": "hh_air_freshener",
+   "name": "Room Freshener Lavender",
+   "brand": "CleanNest",
+   "categoryId": "household",
+   "packSize": "240 ml",
+   "price": 175,
+   "mrp": 210,
+   "emoji": "💐",
+   "tint": "#EEE7F8",
+   "variantGroup": "air_freshener",
+   "description": "Long-lasting lavender room spray that eliminates odours instantly.",
+   "highlights": [
+    "Lavender fragrance",
+    "Odour neutraliser",
+    "Long lasting"
+   ],
+   "nutrition": [],
+   "keywords": "room spray",
+   "rating": 4.6,
+   "ratingCount": 8357
+  },
+  {
+   "id": "hh_candles",
+   "name": "Scented Candles",
+   "brand": "CleanNest",
+   "categoryId": "household",
+   "packSize": "2 pcs",
+   "price": 149,
+   "mrp": 199,
+   "emoji": "🕯️",
+   "tint": "#FFF1D6",
+   "variantGroup": "candles",
+   "description": "Hand-poured soy wax candles with a warm vanilla fragrance. Burn time 20 hours each.",
+   "highlights": [
+    "Soy wax",
+    "Vanilla scent",
+    "20-hour burn time"
+   ],
+   "nutrition": [],
+   "keywords": "decor",
+   "rating": 4.3,
+   "ratingCount": 776
+  },
+  {
+   "id": "hh_batteries",
+   "name": "AA Alkaline Batteries",
+   "brand": "PowerCell",
+   "categoryId": "household",
+   "packSize": "4 pcs",
+   "price": 120,
+   "mrp": 140,
+   "emoji": "🔋",
+   "tint": "#E6F0FB",
+   "variantGroup": "batteries",
+   "description": "Long-lasting alkaline AA batteries for remotes, clocks and toys.",
+   "highlights": [
+    "Long lasting",
+    "Leak resistant",
+    "Pack of 4"
+   ],
+   "nutrition": [],
+   "keywords": "cells",
+   "rating": 4.5,
+   "ratingCount": 784
+  }
+ ]
+}

@@ -1,0 +1,68 @@
+{
+ "categories": [
+  {
+   "id": "fruits_vegetables",
+   "name": "Fruits & Vegetables",
+   "subtitle": "Fresh from farms every morning",
+   "emoji": "🥦",
+   "tint": "#E3F4E1",
+   "sortOrder": 0
+  },
+  {
+   "id": "dairy_eggs",
+   "name": "Dairy & Eggs",
+   "subtitle": "Milk, curd, paneer & more",
+   "emoji": "🥛",
+   "tint": "#E6F0FB",
+   "sortOrder": 1
+  },
+  {
+   "id": "bakery",
+   "name": "Bakery",
+   "subtitle": "Breads, buns & baked treats",
+   "emoji": "🍞",
+   "tint": "#FBEBDD",
+   "sortOrder": 2
+  },
+  {
+   "id": "snacks",
+   "name": "Snacks & Munchies",
+   "subtitle": "Chips, chocolates & namkeen",
+   "emoji": "🍿",
+   "tint": "#FFF1D6",
+   "sortOrder": 3
+  },
+  {
+   "id": "beverages",
+   "name": "Beverages",
+   "subtitle": "Juices, tea, coffee & soft drinks",
+   "emoji": "🧃",
+   "tint": "#FDE7E4",
+   "sortOrder": 4
+  },
+  {
+   "id": "staples",
+   "name": "Atta, Rice & Dal",
+   "subtitle": "Kitchen staples & cooking oils",
+   "emoji": "🌾",
+   "tint": "#F6EEDC",
+   "sortOrder": 5
+  },
+  {
+   "id": "personal_care",
+   "name": "Personal Care",
+   "subtitle": "Skin, hair & bath essentials",
+   "emoji": "🧴",
+   "tint": "#EEE7F8",
+   "sortOrder": 6
+  },
+  {
+   "id": "household",
+   "name": "Household",
+   "subtitle": "Cleaning & home essentials",
+   "emoji": "🧹",
+   "tint": "#E2F2F3",
+   "sortOrder": 7
+  }
+ ]
+}
