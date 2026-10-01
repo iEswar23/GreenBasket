@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/space_s">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/space_m">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/thumbBackground"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:importantForAccessibility="no"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearanceOverlay="@style/ShapeAppearance.GreenBasket.Illustration" />
+
+        <TextView
+            android:id="@+id/thumbEmoji"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:importantForAccessibility="no"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toBottomOf="@id/thumbBackground"
+            app:layout_constraintEnd_toEndOf="@id/thumbBackground"
+            app:layout_constraintStart_toStartOf="@id/thumbBackground"
+            app:layout_constraintTop_toTopOf="@id/thumbBackground"
+            tools:text="🥛" />
+
+        <TextView
+            android:id="@+id/itemName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/space_m"
+            android:layout_marginEnd="@dimen/space_s"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textAppearance="@style/TextAppearance.GreenBasket.ProductName"
+            app:layout_constraintEnd_toStartOf="@id/itemStepper"
+            app:layout_constraintStart_toEndOf="@id/thumbBackground"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Toned Milk" />
+
+        <TextView
+            android:id="@+id/itemPack"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textAppearance="@style/TextAppearance.GreenBasket.Caption"
+            app:layout_constraintEnd_toEndOf="@id/itemName"
+            app:layout_constraintStart_toStartOf="@id/itemName"
+            app:layout_constraintTop_toBottomOf="@id/itemName"
+            tools:text="1 L" />
+
+        <TextView
+            android:id="@+id/itemPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_xs"
+            android:textAppearance="@style/TextAppearance.GreenBasket.Price"
+            app:layout_constraintStart_toStartOf="@id/itemName"
+            app:layout_constraintTop_toBottomOf="@id/itemPack"
+            tools:text="₹108" />
+
+        <TextView
+            android:id="@+id/itemMrp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/space_s"
+            android:textAppearance="@style/TextAppearance.GreenBasket.Mrp"
+            app:layout_constraintBaseline_toBaselineOf="@id/itemPrice"
+            app:layout_constraintStart_toEndOf="@id/itemPrice"
+            tools:text="₹120" />
+
+        <io.github.ieswar23.greenbasket.ui.common.QuantityStepperView
+            android:id="@+id/itemStepper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

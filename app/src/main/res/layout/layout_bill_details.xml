@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_m"
+        android:text="@string/bill_details"
+        android:textAppearance="@style/TextAppearance.GreenBasket.Title" />
+
+    <LinearLayout style="@style/BillRow">
+
+        <TextView
+            style="@style/BillRow.Label"
+            android:text="@string/bill_item_total"
+            app:drawableStartCompat="@drawable/ic_receipt_small" />
+
+        <TextView
+            android:id="@+id/itemMrpValue"
+            style="@style/BillRow.Strike"
+            tools:text="₹420" />
+
+        <TextView
+            android:id="@+id/itemTotalValue"
+            style="@style/BillRow.Value"
+            tools:text="₹356" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/BillRow">
+
+        <TextView
+            style="@style/BillRow.Label"
+            android:text="@string/bill_delivery_fee"
+            app:drawableStartCompat="@drawable/ic_delivery_small" />
+
+        <TextView
+            android:id="@+id/deliveryStrike"
+            style="@style/BillRow.Strike"
+            tools:text="₹25" />
+
+        <TextView
+            android:id="@+id/deliveryValue"
+            style="@style/BillRow.Value"
+            tools:text="FREE" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/BillRow">
+
+        <TextView
+            style="@style/BillRow.Label"
+            android:text="@string/bill_handling_fee"
+            app:drawableStartCompat="@drawable/ic_package_small" />
+
+        <TextView
+            android:id="@+id/handlingValue"
+            style="@style/BillRow.Value"
+            tools:text="₹4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/couponRow"
+        style="@style/BillRow">
+
+        <TextView
+            android:id="@+id/couponLabel"
+            style="@style/BillRow.Label"
+            android:textColor="@color/price_green"
+            app:drawableStartCompat="@drawable/ic_offer_small"
+            tools:text="Coupon (FRESH50)" />
+
+        <TextView
+            android:id="@+id/couponValue"
+            style="@style/BillRow.Value"
+            android:textColor="@color/price_green"
+            tools:text="−₹50" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginVertical="@dimen/space_s"
+        android:background="?attr/colorOutlineVariant" />
+
+    <LinearLayout style="@style/BillRow">
+
+        <TextView
+            style="@style/BillRow.Label"
+            android:text="@string/bill_grand_total"
+            android:textAppearance="@style/TextAppearance.GreenBasket.Title" />
+
+        <TextView
+            android:id="@+id/grandTotalValue"
+            style="@style/BillRow.Value"
+            android:textAppearance="@style/TextAppearance.GreenBasket.Title"
+            tools:text="₹310" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/savingsBanner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_m"
+        android:background="@drawable/bg_savings"
+        android:gravity="center"
+        android:padding="@dimen/space_s"
+        android:textColor="@color/savings_text"
+        android:textStyle="bold"
+        tools:text="Yay! You are saving ₹114 on this order" />
+</LinearLayout>

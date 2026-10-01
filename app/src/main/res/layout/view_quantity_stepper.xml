@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:parentTag="android.widget.FrameLayout">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/addButton"
+        style="@style/Widget.GreenBasket.AddButton"
+        android:layout_width="@dimen/stepper_width"
+        android:layout_height="@dimen/stepper_height"
+        android:text="@string/action_add" />
+
+    <LinearLayout
+        android:id="@+id/stepper"
+        android:layout_width="@dimen/stepper_width"
+        android:layout_height="@dimen/stepper_height"
+        android:background="@drawable/bg_stepper"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <ImageButton
+            android:id="@+id/minus"
+            style="@style/Widget.GreenBasket.StepperIcon"
+            android:contentDescription="@string/cd_decrease_quantity"
+            android:src="@drawable/ic_remove" />
+
+        <TextView
+            android:id="@+id/count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:minWidth="18dp"
+            android:textColor="?attr/colorOnPrimary"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:text="2" />
+
+        <ImageButton
+            android:id="@+id/plus"
+            style="@style/Widget.GreenBasket.StepperIcon"
+            android:contentDescription="@string/cd_increase_quantity"
+            android:src="@drawable/ic_add" />
+    </LinearLayout>
+</merge>

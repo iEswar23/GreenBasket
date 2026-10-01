@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <!-- Top-level (bottom navigation) destinations -->
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="io.github.ieswar23.greenbasket.ui.home.HomeFragment"
+        android:label="@string/nav_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/categoriesFragment"
+        android:name="io.github.ieswar23.greenbasket.ui.categories.CategoriesFragment"
+        android:label="@string/nav_categories"
+        tools:layout="@layout/fragment_categories" />
+
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="io.github.ieswar23.greenbasket.ui.cart.CartFragment"
+        android:label="@string/nav_cart"
+        tools:layout="@layout/fragment_cart" />
+
+    <fragment
+        android:id="@+id/ordersFragment"
+        android:name="io.github.ieswar23.greenbasket.ui.orders.OrdersFragment"
+        android:label="@string/nav_orders"
+        tools:layout="@layout/fragment_orders" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="io.github.ieswar23.greenbasket.ui.profile.ProfileFragment"
+        android:label="@string/nav_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <!-- Drill-down destinations -->
+    <fragment
+        android:id="@+id/productListFragment"
+        android:name="io.github.ieswar23.greenbasket.ui.productlist.ProductListFragment"
+        android:label="@string/title_products"
+        tools:layout="@layout/fragment_product_list">
+        <argument
+            android:name="categoryId"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/productDetailFragment"
+        android:name="io.github.ieswar23.greenbasket.ui.detail.ProductDetailFragment"
+        android:label="@string/title_product"
+        tools:layout="@layout/fragment_product_detail">
+        <argument
+            android:name="productId"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="io.github.ieswar23.greenbasket.ui.search.SearchFragment"
+        android:label="@string/action_search"
+        tools:layout="@layout/fragment_search" />
+
+    <fragment
+        android:id="@+id/wishlistFragment"
+        android:name="io.github.ieswar23.greenbasket.ui.wishlist.WishlistFragment"
+        android:label="@string/title_wishlist"
+        tools:layout="@layout/fragment_wishlist" />
+
+    <fragment
+        android:id="@+id/checkoutFragment"
+        android:name="io.github.ieswar23.greenbasket.ui.checkout.CheckoutFragment"
+        android:label="@string/title_checkout"
+        tools:layout="@layout/fragment_checkout" />
+
+    <fragment
+        android:id="@+id/orderPlacedFragment"
+        android:name="io.github.ieswar23.greenbasket.ui.checkout.OrderPlacedFragment"
+        android:label="@string/title_order_placed"
+        tools:layout="@layout/fragment_order_placed">
+        <argument
+            android:name="orderId"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/orderDetailFragment"
+        android:name="io.github.ieswar23.greenbasket.ui.orders.OrderDetailFragment"
+        android:label="@string/title_order_details"
+        tools:layout="@layout/fragment_order_detail">
+        <argument
+            android:name="orderId"
+            app:argType="string" />
+    </fragment>
+</navigation>

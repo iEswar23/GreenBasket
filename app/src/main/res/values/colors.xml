@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand: fresh green primary, warm yellow accent -->
+    <color name="md_primary">#1A7F37</color>
+    <color name="md_on_primary">#FFFFFF</color>
+    <color name="md_primary_container">#C3F0C8</color>
+    <color name="md_on_primary_container">#00210B</color>
+    <color name="md_secondary">#526350</color>
+    <color name="md_on_secondary">#FFFFFF</color>
+    <color name="md_secondary_container">#D5E8D0</color>
+    <color name="md_on_secondary_container">#101F10</color>
+    <color name="md_tertiary">#7A5900</color>
+    <color name="md_on_tertiary">#FFFFFF</color>
+    <color name="md_tertiary_container">#FFDF9E</color>
+    <color name="md_on_tertiary_container">#261A00</color>
+    <color name="md_error">#BA1A1A</color>
+    <color name="md_on_error">#FFFFFF</color>
+    <color name="md_error_container">#FFDAD6</color>
+    <color name="md_on_error_container">#410002</color>
+    <color name="md_background">#F6FAF3</color>
+    <color name="md_on_background">#181D17</color>
+    <color name="md_surface">#F6FAF3</color>
+    <color name="md_on_surface">#181D17</color>
+    <color name="md_surface_variant">#DDE5D9</color>
+    <color name="md_on_surface_variant">#414941</color>
+    <color name="md_outline">#717970</color>
+    <color name="md_outline_variant">#C1C9BE</color>
+    <color name="md_inverse_surface">#2D322C</color>
+    <color name="md_inverse_on_surface">#EEF2EA</color>
+    <color name="md_inverse_primary">#88D98E</color>
+    <color name="md_surface_container_lowest">#FFFFFF</color>
+    <color name="md_surface_container_low">#F0F5EC</color>
+    <color name="md_surface_container">#EAEFE7</color>
+    <color name="md_surface_container_high">#E5E9E1</color>
+    <color name="md_surface_container_highest">#DFE4DB</color>
+
+    <!-- Accent + semantic colours -->
+    <color name="accent_yellow">#FFC83D</color>
+    <color name="on_accent_yellow">#3A2A00</color>
+    <color name="price_green">#1A7F37</color>
+    <color name="discount_badge_bg">#2F6FE4</color>
+    <color name="discount_badge_text">#FFFFFF</color>
+    <color name="header_gradient_start">#167030</color>
+    <color name="header_gradient_end">#2BA24C</color>
+    <color name="on_header">#FFFFFF</color>
+    <color name="on_header_muted">#D9F5DE</color>
+    <color name="skeleton">#E3E8E0</color>
+    <color name="savings_bg">#E6F6E9</color>
+    <color name="savings_text">#14692D</color>
+
+    <color name="status_placed_bg">#E3ECFF</color>
+    <color name="status_placed_text">#2A4FB0</color>
+    <color name="status_packed_bg">#FFF0C7</color>
+    <color name="status_packed_text">#7A5600</color>
+    <color name="status_shipping_bg">#E0F2FE</color>
+    <color name="status_shipping_text">#075985</color>
+    <color name="status_delivered_bg">#DDF4E2</color>
+    <color name="status_delivered_text">#14692D</color>
+    <color name="status_cancelled_bg">#FDE2E1</color>
+    <color name="status_cancelled_text">#B3261E</color>
+
+    <color name="launcher_background_start">#1A7F37</color>
+    <color name="launcher_background_end">#3FB85F</color>
+    <color name="swipe_delete_bg">#D93F33</color>
+</resources>

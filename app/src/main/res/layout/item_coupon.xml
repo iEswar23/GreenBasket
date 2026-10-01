@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/space_m">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/space_l">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/couponCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_coupon_dashed"
+                android:letterSpacing="0.08"
+                android:paddingHorizontal="@dimen/space_s"
+                android:paddingVertical="2dp"
+                android:textColor="?attr/colorPrimary"
+                android:textStyle="bold"
+                tools:text="FRESH50" />
+
+            <TextView
+                android:id="@+id/couponTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_s"
+                android:textAppearance="@style/TextAppearance.GreenBasket.Title"
+                tools:text="Flat ₹50 off" />
+
+            <TextView
+                android:id="@+id/couponDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.GreenBasket.Caption"
+                tools:text="On orders above ₹399" />
+
+            <TextView
+                android:id="@+id/couponHint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_xs"
+                android:textColor="?attr/colorError"
+                android:textSize="12sp"
+                tools:text="Add ₹43 more to unlock" />
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/couponApply"
+            style="@style/Widget.GreenBasket.Button.Tonal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/action_apply" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

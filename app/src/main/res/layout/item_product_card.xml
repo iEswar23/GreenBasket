@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Widget.GreenBasket.Card.Product"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/space_s">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageBackground"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:importantForAccessibility="no"
+            android:scaleType="fitXY"
+            app:layout_constraintDimensionRatio="1:0.9"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearanceOverlay="@style/ShapeAppearance.GreenBasket.Illustration"
+            tools:src="@color/md_primary_container" />
+
+        <TextView
+            android:id="@+id/emoji"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:importantForAccessibility="no"
+            android:textSize="@dimen/product_emoji_size"
+            app:layout_constraintBottom_toBottomOf="@id/imageBackground"
+            app:layout_constraintEnd_toEndOf="@id/imageBackground"
+            app:layout_constraintStart_toStartOf="@id/imageBackground"
+            app:layout_constraintTop_toTopOf="@id/imageBackground"
+            tools:text="🍌" />
+
+        <TextView
+            android:id="@+id/discountBadge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_discount_badge"
+            android:paddingHorizontal="6dp"
+            android:paddingVertical="2dp"
+            android:textColor="@color/discount_badge_text"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/imageBackground"
+            app:layout_constraintTop_toTopOf="@id/imageBackground"
+            tools:text="18% OFF" />
+
+        <ImageButton
+            android:id="@+id/wishlistButton"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/cd_add_wishlist"
+            android:src="@drawable/ic_favorite_border"
+            app:layout_constraintEnd_toEndOf="@id/imageBackground"
+            app:layout_constraintTop_toTopOf="@id/imageBackground"
+            app:tint="@color/wishlist_tint" />
+
+        <TextView
+            android:id="@+id/deliveryTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_s"
+            android:background="@drawable/bg_pill"
+            android:drawablePadding="2dp"
+            android:gravity="center_vertical"
+            android:paddingHorizontal="5dp"
+            android:paddingVertical="1dp"
+            android:text="@string/product_delivery_time"
+            android:textColor="?attr/colorOnSurfaceVariant"
+            android:textSize="9sp"
+            android:textStyle="bold"
+            app:drawableStartCompat="@drawable/ic_bolt_small"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imageBackground" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_xs"
+            android:ellipsize="end"
+            android:lines="2"
+            android:textAppearance="@style/TextAppearance.GreenBasket.ProductName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/deliveryTime"
+            tools:text="Banana Robusta" />
+
+        <TextView
+            android:id="@+id/packSize"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textAppearance="@style/TextAppearance.GreenBasket.Caption"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/name"
+            tools:text="6 pcs (approx. 1 kg)" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/space_xs"
+            android:textAppearance="@style/TextAppearance.GreenBasket.Price"
+            app:layout_constraintBottom_toTopOf="@id/mrp"
+            app:layout_constraintEnd_toStartOf="@id/stepper"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/stepper"
+            app:layout_constraintVertical_chainStyle="packed"
+            tools:text="₹49" />
+
+        <TextView
+            android:id="@+id/mrp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.GreenBasket.Mrp"
+            app:layout_constraintBottom_toBottomOf="@id/stepper"
+            app:layout_constraintEnd_toStartOf="@id/stepper"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/price"
+            tools:text="₹60" />
+
+        <io.github.ieswar23.greenbasket.ui.common.QuantityStepperView
+            android:id="@+id/stepper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_s"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/packSize" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

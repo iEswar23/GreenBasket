@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingVertical="@dimen/space_s">
+
+    <TextView
+        android:id="@+id/lineEmoji"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bg_skeleton_block"
+        android:gravity="center"
+        android:importantForAccessibility="no"
+        android:textSize="22sp"
+        tools:text="🥛" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/space_m"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lineName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textAppearance="@style/TextAppearance.GreenBasket.ProductName"
+            tools:text="Toned Milk" />
+
+        <TextView
+            android:id="@+id/lineDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.GreenBasket.Caption"
+            tools:text="1 L × 2" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/lineTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.GreenBasket.Body"
+        android:textStyle="bold"
+        tools:text="₹108" />
+</LinearLayout>

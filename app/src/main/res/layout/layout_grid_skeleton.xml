@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:importantForAccessibility="noHideDescendants"
+    android:orientation="vertical"
+    android:padding="@dimen/space_m">
+
+    <LinearLayout style="@style/SkeletonRow">
+        <View style="@style/SkeletonGridCard" />
+        <View style="@style/SkeletonGridCard" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/SkeletonRow">
+        <View style="@style/SkeletonGridCard" />
+        <View style="@style/SkeletonGridCard" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/SkeletonRow">
+        <View style="@style/SkeletonGridCard" />
+        <View style="@style/SkeletonGridCard" />
+    </LinearLayout>
+</LinearLayout>

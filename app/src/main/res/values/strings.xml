@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GreenBasket</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_categories">Categories</string>
+    <string name="nav_cart">Cart</string>
+    <string name="nav_orders">Orders</string>
+    <string name="nav_profile">Profile</string>
+    <string name="title_products">Products</string>
+    <string name="title_product">Product</string>
+    <string name="title_wishlist">Wishlist</string>
+    <string name="title_checkout">Checkout</string>
+    <string name="title_order_placed">Order placed</string>
+    <string name="title_order_details">Order details</string>
+
+    <!-- Common actions -->
+    <string name="action_add">ADD</string>
+    <string name="action_apply">Apply</string>
+    <string name="action_change">Change</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_clear_all">Clear all</string>
+    <string name="action_clear_filters">Clear filters</string>
+    <string name="action_remove">Remove</string>
+    <string name="action_retry">Try again</string>
+    <string name="action_search">Search</string>
+    <string name="action_share">Share</string>
+    <string name="action_undo">Undo</string>
+    <string name="action_view">View</string>
+    <string name="action_view_cart">View cart</string>
+
+    <!-- Accessibility -->
+    <string name="cd_add_wishlist">Add to wishlist</string>
+    <string name="cd_remove_wishlist">Remove from wishlist</string>
+    <string name="cd_banner_page">Offer %1$d</string>
+    <string name="cd_clear_search">Clear search</string>
+    <string name="cd_decrease_quantity">Decrease quantity</string>
+    <string name="cd_increase_quantity">Increase quantity</string>
+    <string name="cd_navigate_up">Navigate up</string>
+    <string name="cd_order_success">Order placed successfully</string>
+    <string name="cd_product_card">%1$s, %2$s, %3$s</string>
+    <string name="cd_quantity">Quantity %1$d</string>
+    <string name="cd_remove_recent">Remove %1$s from recent searches</string>
+
+    <string name="emoji_bolt" translatable="false">⚡</string>
+
+    <!-- Home -->
+    <string name="home_delivery_label">Delivery in</string>
+    <string name="home_delivery_scheduled_label">Scheduled delivery</string>
+    <string name="home_delivery_in_minutes">%1$d minutes</string>
+    <string name="home_add_address">ADD ADDRESS</string>
+    <string name="home_section_categories">Shop by category</string>
+    <string name="home_section_deals">Best deals today</string>
+    <string name="home_section_deals_subtitle">Biggest discounts across the store</string>
+    <string name="home_section_buy_again">Buy again</string>
+    <string name="home_section_buy_again_subtitle">From your recent orders</string>
+    <string name="home_footer_title">Fresh groceries,\ndelivered in minutes.</string>
+    <string name="home_footer_subtitle">Thoughtfully sourced from local farms and trusted brands.</string>
+    <string name="search_hint_format">Search for \"%1$s\"</string>
+    <string-array name="search_hint_terms">
+        <item>milk</item>
+        <item>bread</item>
+        <item>eggs</item>
+        <item>bananas</item>
+        <item>atta</item>
+        <item>chips</item>
+        <item>paneer</item>
+    </string-array>
+
+    <!-- Categories -->
+    <string name="categories_title">All categories</string>
+    <string name="categories_subtitle">Everything you need, in minutes</string>
+
+    <!-- Product -->
+    <string name="discount_off">%1$d%% OFF</string>
+    <string name="product_delivery_time">15 MINS</string>
+    <string name="detail_inclusive_taxes">(Inclusive of all taxes)</string>
+    <string name="detail_select_unit">Select unit</string>
+    <string name="detail_variant_chip">%1$s · %2$s</string>
+    <string name="detail_highlights">Highlights</string>
+    <string name="detail_description">About this product</string>
+    <string name="detail_nutrition">Nutrition facts (per 100 g / ml)</string>
+    <string name="detail_similar">You might also like</string>
+    <string name="detail_mrp">MRP %1$s</string>
+    <string name="detail_rating_count">%1$s ratings</string>
+    <string name="detail_delivery_by">Delivery: %1$s</string>
+    <string name="detail_free_delivery_note">Free delivery on orders above ₹199</string>
+    <string name="detail_quality_note">Quality checked and packed fresh</string>
+    <string name="detail_not_found">This product is no longer available.</string>
+    <string name="share_product_text">Get %1$s (%2$s) for just %3$s on GreenBasket — delivered in minutes!</string>
+    <string name="wishlist_added">%1$s added to your wishlist</string>
+    <string name="wishlist_removed">%1$s removed from your wishlist</string>
+
+    <!-- Sort & filter -->
+    <string name="sort_filter_title">Sort &amp; filter</string>
+    <string name="sort_by">Sort by</string>
+    <string name="sort_relevance">Relevance</string>
+    <string name="sort_price_low_high">Price: low to high</string>
+    <string name="sort_price_high_low">Price: high to low</string>
+    <string name="sort_discount">Discount</string>
+    <string name="sort_name">Name (A–Z)</string>
+    <string name="filter_title">Filter</string>
+    <string name="filter_title_count">Filter (%1$d)</string>
+    <string name="filter_quick_deals">20%+ off</string>
+    <string name="filter_price">Price</string>
+    <string name="filter_price_range">%1$s – %2$s</string>
+    <string name="filter_discount">Discount</string>
+    <string name="filter_discount_any">Any</string>
+    <string name="filter_discount_min">%1$d%% or more</string>
+    <string name="filter_brand">Brand</string>
+    <string name="filter_empty_title">No matching products</string>
+    <string name="filter_empty_message">Try removing a filter or widening the price range.</string>
+
+    <!-- Search -->
+    <string name="search_input_hint">Search milk, fruits, snacks…</string>
+    <string name="search_recent">Recent searches</string>
+    <string name="search_trending">Trending near you</string>
+    <string name="search_empty_title">No results for \"%1$s\"</string>
+    <string name="search_empty_message">Check the spelling or try a more general term like \"dal\" or \"juice\".</string>
+    <string-array name="search_trending_terms">
+        <item>Milk</item>
+        <item>Paneer</item>
+        <item>Bread</item>
+        <item>Eggs</item>
+        <item>Banana</item>
+        <item>Atta</item>
+        <item>Coffee</item>
+        <item>Chips</item>
+        <item>Detergent</item>
+    </string-array>
+
+    <!-- Cart -->
+    <string name="cart_title">My cart</string>
+    <string name="cart_proceed">Checkout</string>
+    <string name="cart_bar_total">%1$s total</string>
+    <string name="cart_bar_savings">You save %1$s</string>
+    <string name="cart_slot_express">Delivery in %1$d minutes</string>
+    <string name="cart_free_delivery_progress">Add %1$s more for FREE delivery</string>
+    <string name="cart_free_delivery_unlocked">🎉 Yay! You\'ve unlocked FREE delivery</string>
+    <string name="cart_item_removed">%1$s removed</string>
+    <string name="cart_empty_title">Your cart is empty</string>
+    <string name="cart_empty_message">Fresh fruits, dairy and daily essentials are just a few taps away.</string>
+    <string name="cart_empty_action">Start shopping</string>
+    <string name="cart_policy_title">Cancellation policy</string>
+    <string name="cart_policy_body">Orders can be cancelled before they are packed. In case of unexpected delays, a refund will be provided where applicable.</string>
+
+    <!-- Bill -->
+    <string name="bill_details">Bill details</string>
+    <string name="bill_item_total">Item total</string>
+    <string name="bill_delivery_fee">Delivery fee</string>
+    <string name="bill_handling_fee">Handling fee</string>
+    <string name="bill_coupon_discount">Coupon (%1$s)</string>
+    <string name="bill_grand_total">To pay</string>
+    <string name="bill_free">FREE</string>
+    <string name="bill_total_savings">Yay! You are saving %1$s on this order</string>
+
+    <!-- Coupons -->
+    <string name="coupon_sheet_title">Coupons &amp; offers</string>
+    <string name="coupon_enter_code">Enter coupon code</string>
+    <string name="coupon_available">Available offers</string>
+    <string name="coupon_apply">Apply coupon</string>
+    <string name="coupon_applied">Applied</string>
+    <string name="coupon_applied_title">\'%1$s\' applied</string>
+    <string name="coupon_applied_saving">You save %1$s with this coupon</string>
+    <string name="coupon_applied_message">%1$s applied — you save %2$s</string>
+    <string name="coupon_shortfall">Add %1$s more to use this coupon</string>
+    <string name="coupon_shortfall_message">Add items worth %1$s more to use %2$s</string>
+    <string name="coupon_unlock_hint">Add %1$s more to unlock</string>
+    <string name="coupon_invalid">That coupon code isn\'t valid</string>
+    <string name="coupon_error_empty">Enter a coupon code</string>
+
+    <!-- Delivery slots -->
+    <string name="slot_sheet_title">Choose delivery slot</string>
+    <string name="slot_sheet_subtitle">Get it in minutes or pick a time that suits you.</string>
+    <string name="slot_express_title">Express delivery</string>
+    <string name="slot_express_subtitle">Arrives in about 15 minutes</string>
+    <string name="slot_express_unavailable">Available between 7 AM and 11 PM</string>
+    <string name="slot_express_full">Express · %1$d mins</string>
+    <string name="slot_today">Today</string>
+    <string name="slot_tomorrow">Tomorrow</string>
+    <string name="slot_today_format">Today, %1$s</string>
+    <string name="slot_tomorrow_format">Tomorrow, %1$s</string>
+    <string name="slot_none_today">No more slots today. Try express delivery or pick tomorrow.</string>
+    <string name="slot_confirm">Confirm slot</string>
+    <string name="slot_confirm_with_label">Confirm · %1$s</string>
+
+    <!-- Checkout -->
+    <string name="checkout_delivering_to">Delivering to %1$s</string>
+    <string name="checkout_address_line">%1$s · %2$s</string>
+    <string name="checkout_no_address">Add a delivery address</string>
+    <string name="checkout_delivery_slot">Delivery slot</string>
+    <string name="checkout_order_summary">Order summary</string>
+    <string name="checkout_payment">Payment method</string>
+    <string name="checkout_line_detail">%1$s × %2$d</string>
+    <string name="checkout_place_order">Place order · %1$s</string>
+    <string name="checkout_failed">Couldn\'t place your order. Please try again.</string>
+    <string name="checkout_demo_note">This is a demo store — no real payment is taken.</string>
+    <string name="payment_upi">UPI</string>
+    <string name="payment_card">Credit / debit card</string>
+    <string name="payment_cash">Cash or UPI on delivery</string>
+
+    <!-- Order placed -->
+    <string name="placed_title">Order placed!</string>
+    <string name="placed_eta_express">Arriving in about 15 minutes</string>
+    <string name="placed_eta_scheduled">Arriving %1$s</string>
+    <string name="placed_order_id">Order ID</string>
+    <string name="placed_items">Items</string>
+    <string name="placed_paid">Amount</string>
+    <string name="placed_address">%1$s · %2$s</string>
+    <string name="placed_savings">You saved %1$s on this order 🎉</string>
+    <string name="placed_track">Track order</string>
+    <string name="placed_continue">Continue shopping</string>
+
+    <!-- Orders -->
+    <string name="orders_title">My orders</string>
+    <string name="orders_view_details">Details</string>
+    <string name="orders_summary">%1$s · %2$s</string>
+    <string name="orders_more_items">+%1$d</string>
+    <string name="orders_empty_title">No orders yet</string>
+    <string name="orders_empty_message">Your past orders will show up here once you place one.</string>
+    <string name="order_id_format">#%1$s</string>
+    <string name="order_placed_on">Placed on %1$s</string>
+    <string name="order_delivery_details">Delivery details</string>
+    <string name="order_reorder">Reorder all items</string>
+    <string name="order_paid_upi">Paid via UPI</string>
+    <string name="order_paid_card">Paid via card</string>
+    <string name="order_paid_cash">Pay on delivery</string>
+    <string name="status_placed">Placed</string>
+    <string name="status_packed">Packed</string>
+    <string name="status_on_the_way">On the way</string>
+    <string name="status_delivered">Delivered</string>
+    <string name="status_cancelled">Cancelled</string>
+    <string name="status_headline_placed">We\'ve received your order</string>
+    <string name="status_headline_packed">Your order is being packed</string>
+    <string name="status_headline_on_the_way">Your order is on the way</string>
+    <string name="status_headline_delivered">Delivered. Enjoy your groceries!</string>
+    <string name="status_headline_cancelled">This order was cancelled</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Account</string>
+    <string name="profile_name" translatable="false">Aarav Mehta</string>
+    <string name="profile_phone" translatable="false">+91 98200 41736</string>
+    <string name="profile_member_badge">GREEN MEMBER</string>
+    <string name="profile_stat_orders">Orders</string>
+    <string name="profile_stat_saved">Saved</string>
+    <string name="profile_stat_wishlist">Wishlist</string>
+    <string name="profile_addresses">Saved addresses</string>
+    <string name="profile_settings">Settings</string>
+    <string name="profile_appearance">Appearance</string>
+    <string name="profile_about">About GreenBasket</string>
+    <string name="profile_version">GreenBasket v%1$s · Made with 💚 in India</string>
+    <string name="theme_system">System default</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="about_message">Version %1$s\n\nGreenBasket is a demo grocery app showcasing quick-commerce flows built with Kotlin, the Android View system, MVVM, Hilt, Room and Retrofit. All products, prices and brands are fictional.</string>
+
+    <!-- Addresses -->
+    <string name="address_sheet_title">Select delivery address</string>
+    <string name="address_form_title">Add new address</string>
+    <string name="address_add_new">Add new address</string>
+    <string name="address_save_as">Save address as</string>
+    <string name="address_label_home">Home</string>
+    <string name="address_label_work">Work</string>
+    <string name="address_label_other">Other</string>
+    <string name="address_field_name">Receiver\'s name</string>
+    <string name="address_field_phone">Phone number</string>
+    <string name="address_phone_prefix" translatable="false">+91 </string>
+    <string name="address_field_house">Flat / house no., building</string>
+    <string name="address_field_area">Area, street, locality</string>
+    <string name="address_field_city">City</string>
+    <string name="address_field_pincode">Pincode</string>
+    <string name="address_save">Save address</string>
+    <string name="address_contact">%1$s · %2$s</string>
+    <string name="address_error_name">Enter the receiver\'s name</string>
+    <string name="address_error_phone">Enter a valid 10-digit mobile number</string>
+    <string name="address_error_pincode">Enter a valid 6-digit pincode</string>
+    <string name="address_error_required">Required</string>
+
+    <!-- Wishlist -->
+    <string name="wishlist_empty_title">Your wishlist is empty</string>
+    <string name="wishlist_empty_message">Tap the heart on any product to save it for later.</string>
+
+    <!-- Errors -->
+    <string name="error_title">Something went wrong</string>
+    <string name="error_catalog_message">We couldn\'t load the store. Check your connection and try again.</string>
+    <string name="error_refresh_failed">Couldn\'t refresh. Showing saved items.</string>
+
+    <!-- Plurals -->
+    <plurals name="item_count">
+        <item quantity="one">%1$d item</item>
+        <item quantity="other">%1$d items</item>
+    </plurals>
+    <plurals name="order_count">
+        <item quantity="one">%1$d order</item>
+        <item quantity="other">%1$d orders</item>
+    </plurals>
+    <plurals name="cart_items_in_cart">
+        <item quantity="one">%1$d item in cart</item>
+        <item quantity="other">%1$d items in cart</item>
+    </plurals>
+    <plurals name="cart_shipment_items">
+        <item quantity="one">Shipment of %1$d item</item>
+        <item quantity="other">Shipment of %1$d items</item>
+    </plurals>
+    <plurals name="coupon_offers_available">
+        <item quantity="one">%1$d offer available</item>
+        <item quantity="other">%1$d offers available</item>
+    </plurals>
+    <plurals name="order_items_title">
+        <item quantity="one">%1$d item in this order</item>
+        <item quantity="other">%1$d items in this order</item>
+    </plurals>
+    <plurals name="reorder_added">
+        <item quantity="one">%1$d item added to your cart</item>
+        <item quantity="other">%1$d items added to your cart</item>
+    </plurals>
+    <plurals name="search_results_header">
+        <item quantity="one">%1$d result for “%2$s”</item>
+        <item quantity="other">%1$d results for “%2$s”</item>
+    </plurals>
+</resources>

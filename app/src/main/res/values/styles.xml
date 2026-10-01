@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Shapes -->
+    <style name="ShapeAppearance.GreenBasket.Small" parent="ShapeAppearance.Material3.Corner.Small">
+        <item name="cornerSize">8dp</item>
+    </style>
+    <style name="ShapeAppearance.GreenBasket.Medium" parent="ShapeAppearance.Material3.Corner.Medium">
+        <item name="cornerSize">14dp</item>
+    </style>
+    <style name="ShapeAppearance.GreenBasket.Large" parent="ShapeAppearance.Material3.Corner.Large">
+        <item name="cornerSize">20dp</item>
+    </style>
+    <style name="ShapeAppearance.GreenBasket.Dialog" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">24dp</item>
+    </style>
+    <style name="ShapeAppearance.GreenBasket.Illustration" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+    <style name="ShapeAppearance.GreenBasket.Circle" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="ShapeAppearance.GreenBasket.BottomSheet" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">24dp</item>
+        <item name="cornerSizeTopRight">24dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+    </style>
+
+    <!-- Components -->
+    <style name="Widget.GreenBasket.Card" parent="Widget.Material3.CardView.Outlined">
+        <item name="cardBackgroundColor">?attr/colorSurfaceContainerLowest</item>
+        <item name="strokeColor">?attr/colorOutlineVariant</item>
+        <item name="strokeWidth">@dimen/card_stroke</item>
+        <item name="cardCornerRadius">@dimen/radius_l</item>
+    </style>
+
+    <style name="Widget.GreenBasket.Card.Product">
+        <item name="cardCornerRadius">14dp</item>
+    </style>
+
+    <style name="Widget.GreenBasket.Card.Flat" parent="Widget.Material3.CardView.Filled">
+        <item name="cardBackgroundColor">?attr/colorSurfaceContainerLow</item>
+        <item name="cardCornerRadius">@dimen/radius_l</item>
+    </style>
+
+    <style name="Widget.GreenBasket.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="titleTextAppearance">@style/TextAppearance.GreenBasket.ToolbarTitle</item>
+        <item name="subtitleTextAppearance">@style/TextAppearance.GreenBasket.ToolbarSubtitle</item>
+    </style>
+
+    <style name="Widget.GreenBasket.BottomNavigation" parent="Widget.Material3.BottomNavigationView">
+        <item name="backgroundTint">?attr/colorSurfaceContainerLowest</item>
+        <item name="itemActiveIndicatorStyle">@style/Widget.GreenBasket.BottomNavigation.ActiveIndicator</item>
+        <item name="itemIconTint">@color/bottom_nav_item</item>
+        <item name="itemTextColor">@color/bottom_nav_item</item>
+        <item name="itemTextAppearanceActive">@style/TextAppearance.GreenBasket.NavLabel.Active</item>
+        <item name="itemTextAppearanceInactive">@style/TextAppearance.GreenBasket.NavLabel</item>
+    </style>
+
+    <style name="Widget.GreenBasket.BottomNavigation.ActiveIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">?attr/colorPrimaryContainer</item>
+    </style>
+
+    <style name="Widget.GreenBasket.BottomSheet" parent="Widget.Material3.BottomSheet.Modal">
+        <item name="backgroundTint">?attr/colorSurfaceContainerLow</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.GreenBasket.BottomSheet</item>
+    </style>
+
+    <style name="Widget.GreenBasket.Button" parent="Widget.Material3.Button">
+        <item name="cornerRadius">@dimen/radius_m</item>
+        <item name="android:minHeight">52dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.GreenBasket.Button</item>
+    </style>
+
+    <style name="Widget.GreenBasket.Button.Tonal" parent="Widget.Material3.Button.TonalButton">
+        <item name="cornerRadius">@dimen/radius_m</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.GreenBasket.Button</item>
+    </style>
+
+    <style name="Widget.GreenBasket.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="cornerRadius">@dimen/radius_m</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.GreenBasket.Button</item>
+    </style>
+
+    <style name="Widget.GreenBasket.Button.Text" parent="Widget.Material3.Button.TextButton">
+        <item name="android:textAppearance">@style/TextAppearance.GreenBasket.Button</item>
+    </style>
+
+    <style name="Widget.GreenBasket.AddButton" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="cornerRadius">@dimen/radius_s</item>
+        <item name="strokeColor">?attr/colorPrimary</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+        <item name="backgroundTint">@color/add_button_background</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingEnd">0dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.04</item>
+    </style>
+
+    <style name="Widget.GreenBasket.StepperIcon" parent="">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+        <item name="android:scaleType">center</item>
+        <item name="tint">?attr/colorOnPrimary</item>
+    </style>
+
+    <style name="Widget.GreenBasket.SectionHeader" parent="">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">@style/TextAppearance.GreenBasket.SectionTitle</item>
+    </style>
+
+    <style name="Widget.GreenBasket.Chip.Filter" parent="Widget.Material3.Chip.Filter">
+        <item name="chipCornerRadius">@dimen/radius_s</item>
+    </style>
+
+    <style name="Widget.GreenBasket.Chip.Choice" parent="Widget.Material3.Chip.Filter">
+        <item name="chipCornerRadius">@dimen/radius_s</item>
+        <item name="checkedIconVisible">false</item>
+        <item name="chipBackgroundColor">@color/choice_chip_background</item>
+        <item name="chipStrokeColor">@color/choice_chip_stroke</item>
+        <item name="android:textColor">@color/choice_chip_text</item>
+    </style>
+
+    <style name="Widget.GreenBasket.Chip.Status" parent="Widget.Material3.Chip.Assist">
+        <item name="chipCornerRadius">@dimen/radius_s</item>
+        <item name="chipStrokeWidth">0dp</item>
+        <item name="chipMinHeight">28dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.GreenBasket.Label</item>
+        <item name="android:clickable">false</item>
+        <item name="android:focusable">false</item>
+        <item name="ensureMinTouchTargetSize">false</item>
+    </style>
+
+    <!-- Typography -->
+    <style name="TextAppearance.GreenBasket.ToolbarTitle" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="TextAppearance.GreenBasket.ToolbarSubtitle" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+    </style>
+    <style name="TextAppearance.GreenBasket.Headline" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextAppearance.GreenBasket.SectionTitle" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+    <style name="TextAppearance.GreenBasket.Title" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+    <style name="TextAppearance.GreenBasket.ProductName" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:lineSpacingExtra">1dp</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+    <style name="TextAppearance.GreenBasket.Body" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+    <style name="TextAppearance.GreenBasket.Body.Muted">
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+    </style>
+    <style name="TextAppearance.GreenBasket.Caption" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+    </style>
+    <style name="TextAppearance.GreenBasket.Label" parent="TextAppearance.Material3.LabelMedium">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextAppearance.GreenBasket.Price" parent="TextAppearance.Material3.TitleSmall">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+    <style name="TextAppearance.GreenBasket.Price.Large">
+        <item name="android:textSize">22sp</item>
+    </style>
+    <style name="TextAppearance.GreenBasket.Mrp" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="TextAppearance.GreenBasket.Button" parent="TextAppearance.Material3.LabelLarge">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="TextAppearance.GreenBasket.ExpandedTitleHidden" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="android:textColor">@android:color/transparent</item>
+    </style>
+    <style name="TextAppearance.GreenBasket.NavLabel" parent="TextAppearance.Material3.LabelMedium" />
+    <style name="TextAppearance.GreenBasket.NavLabel.Active">
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

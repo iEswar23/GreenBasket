@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:orientation="vertical"
+    android:padding="@dimen/space_xs">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/tileCard"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:clickable="false"
+        android:focusable="false"
+        app:cardCornerRadius="@dimen/radius_m"
+        app:strokeWidth="0dp">
+
+        <TextView
+            android:id="@+id/tileEmoji"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:importantForAccessibility="no"
+            android:textSize="38sp"
+            tools:text="🥦" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:id="@+id/tileName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:gravity="center_horizontal"
+        android:lines="2"
+        android:textAppearance="@style/TextAppearance.GreenBasket.Label"
+        android:textColor="?attr/colorOnSurface"
+        tools:text="Fruits &amp; Vegetables" />
+</LinearLayout>

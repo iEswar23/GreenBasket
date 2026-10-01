@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:importantForAccessibility="noHideDescendants"
+    android:orientation="vertical"
+    android:padding="@dimen/screen_padding">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/banner_height"
+        android:background="@drawable/bg_skeleton_card" />
+
+    <View
+        android:layout_width="160dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="@dimen/space_xxl"
+        android:background="@drawable/bg_skeleton_block" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_l"
+        android:orientation="horizontal">
+
+        <View style="@style/SkeletonTile" />
+        <View style="@style/SkeletonTile" />
+        <View style="@style/SkeletonTile" />
+        <View style="@style/SkeletonTile" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_m"
+        android:orientation="horizontal">
+
+        <View style="@style/SkeletonTile" />
+        <View style="@style/SkeletonTile" />
+        <View style="@style/SkeletonTile" />
+        <View style="@style/SkeletonTile" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="120dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="@dimen/space_xxl"
+        android:background="@drawable/bg_skeleton_block" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_l"
+        android:orientation="horizontal">
+
+        <View style="@style/SkeletonProduct" />
+        <View style="@style/SkeletonProduct" />
+        <View style="@style/SkeletonProduct" />
+    </LinearLayout>
+</LinearLayout>

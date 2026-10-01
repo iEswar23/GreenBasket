@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Spacing scale (4dp grid) -->
+    <dimen name="space_xxs">2dp</dimen>
+    <dimen name="space_xs">4dp</dimen>
+    <dimen name="space_s">8dp</dimen>
+    <dimen name="space_m">12dp</dimen>
+    <dimen name="space_l">16dp</dimen>
+    <dimen name="space_xl">20dp</dimen>
+    <dimen name="space_xxl">24dp</dimen>
+    <dimen name="space_xxxl">32dp</dimen>
+    <dimen name="screen_padding">16dp</dimen>
+
+    <!-- Corner radii -->
+    <dimen name="radius_s">8dp</dimen>
+    <dimen name="radius_m">12dp</dimen>
+    <dimen name="radius_l">16dp</dimen>
+
+    <dimen name="stepper_height">34dp</dimen>
+    <dimen name="stepper_width">76dp</dimen>
+    <dimen name="stepper_height_large">48dp</dimen>
+    <dimen name="stepper_width_large">136dp</dimen>
+
+    <dimen name="product_card_carousel_width">152dp</dimen>
+    <dimen name="product_emoji_size">54sp</dimen>
+    <dimen name="detail_emoji_size">128sp</dimen>
+    <dimen name="detail_header_height">320dp</dimen>
+    <dimen name="banner_height">152dp</dimen>
+    <dimen name="bottom_bar_min_height">72dp</dimen>
+    <dimen name="card_stroke">1dp</dimen>
+    <dimen name="avatar_size">64dp</dimen>
+</resources>

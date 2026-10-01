@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingHorizontal="@dimen/space_s"
+    android:paddingTop="@dimen/space_xl"
+    android:paddingBottom="@dimen/space_s">
+
+    <TextView
+        android:id="@+id/sectionTitle"
+        style="@style/Widget.GreenBasket.SectionHeader"
+        tools:text="Shop by category" />
+
+    <TextView
+        android:id="@+id/sectionSubtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:textAppearance="@style/TextAppearance.GreenBasket.Caption"
+        tools:text="Prices drop daily on these picks" />
+</LinearLayout>
