@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/placedRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorBackground"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="@dimen/space_xxl">
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <FrameLayout
+        android:id="@+id/checkContainer"
+        android:layout_width="148dp"
+        android:layout_height="148dp"
+        android:background="@drawable/bg_circle"
+        android:backgroundTint="?attr/colorPrimary">
+
+        <ImageView
+            android:id="@+id/checkmark"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/cd_order_success"
+            android:src="@drawable/avd_order_success" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/placedTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_xxl"
+        android:gravity="center"
+        android:text="@string/placed_title"
+        android:textAppearance="@style/TextAppearance.GreenBasket.Headline" />
+
+    <TextView
+        android:id="@+id/placedEta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_s"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.GreenBasket.Title"
+        android:textColor="?attr/colorPrimary"
+        tools:text="Arriving in 15 minutes" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/placedCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_xxl">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/space_l">
+
+            <LinearLayout style="@style/BillRow">
+
+                <TextView
+                    style="@style/BillRow.Label"
+                    android:text="@string/placed_order_id" />
+
+                <TextView
+                    android:id="@+id/placedOrderId"
+                    style="@style/BillRow.Value"
+                    tools:text="#GB12345678" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/BillRow">
+
+                <TextView
+                    style="@style/BillRow.Label"
+                    android:text="@string/placed_items" />
+
+                <TextView
+                    android:id="@+id/placedItems"
+                    style="@style/BillRow.Value"
+                    tools:text="6 items" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/BillRow">
+
+                <TextView
+                    style="@style/BillRow.Label"
+                    android:text="@string/placed_paid" />
+
+                <TextView
+                    android:id="@+id/placedTotal"
+                    style="@style/BillRow.Value"
+                    tools:text="₹356" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/placedAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_s"
+                android:textAppearance="@style/TextAppearance.GreenBasket.Caption"
+                tools:text="Delivering to Home · Flat 1204, Lotus Residency" />
+
+            <TextView
+                android:id="@+id/placedSavings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_m"
+                android:background="@drawable/bg_savings"
+                android:gravity="center"
+                android:padding="@dimen/space_s"
+                android:textColor="@color/savings_text"
+                android:textStyle="bold"
+                tools:text="You saved ₹64 on this order" />
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/trackOrderButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/placed_track" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/continueButton"
+        style="@style/Widget.GreenBasket.Button.Outlined"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_s"
+        android:text="@string/placed_continue" />
+</LinearLayout>

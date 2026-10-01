@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.google.android.material.bottomsheet.BottomSheetDragHandleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/sheetContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true"
+            android:orientation="vertical"
+            android:paddingHorizontal="@dimen/screen_padding"
+            android:paddingBottom="@dimen/screen_padding">
+
+            <TextView
+                android:id="@+id/sheetTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space_l"
+                android:text="@string/address_sheet_title"
+                android:textAppearance="@style/TextAppearance.GreenBasket.Headline" />
+
+            <LinearLayout
+                android:id="@+id/addressList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/showFormButton"
+                style="@style/Widget.GreenBasket.Button.Outlined"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_s"
+                android:text="@string/address_add_new"
+                app:icon="@drawable/ic_add_location" />
+
+            <LinearLayout
+                android:id="@+id/addressForm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    style="@style/SheetSectionTitle"
+                    android:layout_marginTop="0dp"
+                    android:text="@string/address_save_as" />
+
+                <com.google.android.material.chip.ChipGroup
+                    android:id="@+id/labelGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:selectionRequired="true"
+                    app:singleSelection="true">
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/labelHome"
+                        style="@style/Widget.GreenBasket.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/address_label_home" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/labelWork"
+                        style="@style/Widget.GreenBasket.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/address_label_work" />
+
+                    <com.google.android.material.chip.Chip
+                        android:id="@+id/labelOther"
+                        style="@style/Widget.GreenBasket.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/address_label_other" />
+                </com.google.android.material.chip.ChipGroup>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/nameLayout"
+                    style="@style/AddressField"
+                    android:hint="@string/address_field_name">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/nameInput"
+                        style="@style/AddressFieldInput"
+                        android:inputType="textPersonName|textCapWords" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/phoneLayout"
+                    style="@style/AddressField"
+                    android:hint="@string/address_field_phone"
+                    app:prefixText="@string/address_phone_prefix">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/phoneInput"
+                        style="@style/AddressFieldInput"
+                        android:inputType="phone"
+                        android:maxLength="10" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/houseLayout"
+                    style="@style/AddressField"
+                    android:hint="@string/address_field_house">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/houseInput"
+                        style="@style/AddressFieldInput"
+                        android:inputType="textPostalAddress|textCapWords" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/areaLayout"
+                    style="@style/AddressField"
+                    android:hint="@string/address_field_area">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/areaInput"
+                        style="@style/AddressFieldInput"
+                        android:inputType="textPostalAddress|textCapWords" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/cityLayout"
+                        style="@style/AddressField"
+                        android:layout_width="0dp"
+                        android:layout_marginEnd="@dimen/space_s"
+                        android:layout_weight="1"
+                        android:hint="@string/address_field_city">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/cityInput"
+                            style="@style/AddressFieldInput"
+                            android:inputType="textCapWords" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/pincodeLayout"
+                        style="@style/AddressField"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:hint="@string/address_field_pincode">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/pincodeInput"
+                            style="@style/AddressFieldInput"
+                            android:imeOptions="actionDone"
+                            android:inputType="number"
+                            android:maxLength="6" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                </LinearLayout>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/saveAddressButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/space_l"
+                    android:text="@string/address_save" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

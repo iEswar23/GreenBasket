@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="288dp"
+    android:height="288dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="0.8"
+        android:scaleY="0.8">
+    <!-- Handle -->
+    <path
+        android:pathData="M41,50 C41,34 67,34 67,50"
+        android:strokeWidth="5"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round" />
+    <!-- Leaf -->
+    <path
+        android:fillColor="#FFFFC83D"
+        android:pathData="M58,40 C60,30 70,25 78,26 C78,35 71,42 61,43 C60,42 59,41 58,40 Z" />
+    <path
+        android:pathData="M60,41 C64,36 68,32 74,29"
+        android:strokeWidth="1.4"
+        android:strokeColor="#FFB98A00"
+        android:strokeLineCap="round" />
+    <!-- Basket rim -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M31,48 L77,48 Q80,48 80,51 L80,53 Q80,56 77,56 L31,56 Q28,56 28,53 L28,51 Q28,48 31,48 Z" />
+    <!-- Basket body -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M32,58 L76,58 L71.5,78 Q70.8,81 67.8,81 L40.2,81 Q37.2,81 36.5,78 Z" />
+    <!-- Weave -->
+    <path
+        android:pathData="M44,62 L45.5,76 M54,62 L54,76 M64,62 L62.5,76"
+        android:strokeWidth="3"
+        android:strokeColor="#FF1A7F37"
+        android:strokeLineCap="round" />
+    </group>
+</vector>
