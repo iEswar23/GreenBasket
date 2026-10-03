@@ -2,6 +2,7 @@
 
 **A quick-commerce grocery app for Android — fresh produce, dairy and daily essentials with 15-minute express delivery or scheduled slots.**
 
+[![Android CI](https://github.com/iEswar23/GreenBasket/actions/workflows/android-ci.yml/badge.svg)](https://github.com/iEswar23/GreenBasket/actions/workflows/android-ci.yml)
 ![Kotlin](https://img.shields.io/badge/Kotlin-2.0.21-7F52FF?logo=kotlin&logoColor=white)
 ![Views](https://img.shields.io/badge/UI-XML%20Views%20%2B%20Material%203-1A7F37)
 ![MVVM](https://img.shields.io/badge/Architecture-MVVM-0A7EA4)
