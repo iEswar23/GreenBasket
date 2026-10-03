@@ -30,6 +30,7 @@ interface CatalogRepository {
     fun observeVariants(variantGroup: String): Flow<List<Product>>
     fun observeSimilar(product: Product, limit: Int = 10): Flow<List<Product>>
     fun observeBestDeals(limit: Int = 12): Flow<List<Product>>
-    fun observeBuyAgain(limit: Int = 12): Flow<List<Product>>
+    fun observeProductsByIds(ids: Collection<String>): Flow<List<Product>>
+    suspend fun getProducts(ids: Collection<String>): List<Product>
     fun search(query: String): Flow<List<Product>>
 }

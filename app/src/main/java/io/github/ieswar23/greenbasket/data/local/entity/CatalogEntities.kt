@@ -1,5 +1,6 @@
 package io.github.ieswar23.greenbasket.data.local.entity
 
+import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.Index
 import androidx.room.PrimaryKey
@@ -38,6 +39,7 @@ data class ProductEntity(
     val ratingCount: Int,
     /** Position in the remote catalog, used for "relevance" ordering. */
     val position: Int,
+    @ColumnInfo(defaultValue = "1") val inStock: Boolean = true,
 )
 
 @Entity(tableName = "banners")

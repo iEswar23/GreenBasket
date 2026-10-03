@@ -23,6 +23,7 @@ object DatabaseModule {
     @Singleton
     fun provideDatabase(@ApplicationContext context: Context): GreenBasketDatabase =
         Room.databaseBuilder(context, GreenBasketDatabase::class.java, GreenBasketDatabase.NAME)
+            .addMigrations(GreenBasketDatabase.MIGRATION_1_2)
             .fallbackToDestructiveMigration()
             .build()
 

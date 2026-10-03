@@ -110,6 +110,7 @@ class ProductDetailFragment : Fragment(R.layout.fragment_product_detail) {
             }
         }
 
+        binding.barStepper.isAvailable = product.inStock
         binding.barStepper.onIncrement = { viewModel.increment(product) }
         binding.barStepper.onDecrement = { viewModel.decrement(product) }
         binding.barStepper.setQuantity(state.quantity, animate = !productChanged)

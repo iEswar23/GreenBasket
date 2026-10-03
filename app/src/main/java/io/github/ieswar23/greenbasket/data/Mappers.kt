@@ -55,6 +55,7 @@ fun ProductDto.toEntity(position: Int) = ProductEntity(
     rating = rating ?: 4.2f,
     ratingCount = ratingCount ?: 0,
     position = position,
+    inStock = inStock ?: true,
 )
 
 fun BannerDto.toEntity(position: Int) = BannerEntity(
@@ -105,6 +106,7 @@ fun ProductEntity.toDomain() = Product(
     },
     rating = rating,
     ratingCount = ratingCount,
+    inStock = inStock,
 )
 
 fun BannerEntity.toDomain() = Banner(

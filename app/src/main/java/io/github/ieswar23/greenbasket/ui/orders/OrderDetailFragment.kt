@@ -14,7 +14,7 @@ import io.github.ieswar23.greenbasket.databinding.FragmentOrderDetailBinding
 import io.github.ieswar23.greenbasket.databinding.ItemSummaryLineBinding
 import io.github.ieswar23.greenbasket.databinding.ItemTimelineStepBinding
 import io.github.ieswar23.greenbasket.domain.OrderStatusResolver
-import io.github.ieswar23.greenbasket.domain.model.Order
+import io.github.ieswar23.greenbasket.domain.ReorderPlan
 import io.github.ieswar23.greenbasket.domain.model.OrderStatus
 import io.github.ieswar23.greenbasket.domain.model.PaymentMethod
 import io.github.ieswar23.greenbasket.ui.common.BillBinder
@@ -48,19 +48,34 @@ class OrderDetailFragment : Fragment(R.layout.fragment_order_detail) {
         binding.toolbar.setNavigationOnClickListener { findNavController().navigateUp() }
         binding.reorderButton.setOnClickListener { viewModel.reorder() }
 
-        collectWithLifecycle(viewModel.order) { order -> order?.let(::render) }
-        collectWithLifecycle(viewModel.reordered) { count ->
-            Snackbar.make(
-                binding.root,
-                resources.getQuantityString(R.plurals.reorder_added, count, count),
-                Snackbar.LENGTH_LONG,
-            ).setAction(R.string.action_view_cart) {
-                findNavController().navigateToTab(R.id.cartFragment)
-            }.setAnchorView(binding.reorderBar).show()
-        }
+        collectWithLifecycle(viewModel.uiState) { state -> state?.let(::render) }
+        collectWithLifecycle(viewModel.reorderResults, action = ::showReorderResult)
     }
 
-    private fun render(order: Order) {
+    private fun showReorderResult(plan: ReorderPlan) {
+        val message = when {
+            plan.addedUnits == 0 && plan.unavailableUnits > 0 && plan.cappedUnits == 0 ->
+                getString(R.string.reorder_nothing_available)
+            plan.addedUnits == 0 -> getString(R.string.reorder_already_at_max)
+            plan.unavailableUnits == 0 && plan.cappedUnits == 0 ->
+                resources.getQuantityString(R.plurals.reorder_added, plan.addedUnits, plan.addedUnits)
+            else -> buildList {
+                add(resources.getQuantityString(R.plurals.reorder_added_count, plan.addedUnits, plan.addedUnits))
+                if (plan.unavailableUnits > 0) add(getString(R.string.reorder_unavailable_count, plan.unavailableUnits))
+                if (plan.cappedUnits > 0) add(getString(R.string.reorder_capped_count, plan.cappedUnits))
+            }.reduce { summary, part -> getString(R.string.reorder_summary_join, summary, part) }
+        }
+        val snackbar = Snackbar.make(binding.root, message, Snackbar.LENGTH_LONG).setAnchorView(binding.reorderBar)
+        if (plan.addedUnits > 0 || plan.cappedUnits > 0) {
+            snackbar.setAction(R.string.action_view_cart) {
+                findNavController().navigateToTab(R.id.cartFragment)
+            }
+        }
+        snackbar.show()
+    }
+
+    private fun render(state: OrderDetailUiState) {
+        val order = state.order
         val context = requireContext()
         val style = OrderStatusStyle.of(order.status)
         binding.toolbar.title = getString(R.string.order_id_format, order.id)
@@ -78,7 +93,12 @@ class OrderDetailFragment : Fragment(R.layout.fragment_order_detail) {
             line.lineName.text = item.name
             line.lineDetail.text = getString(R.string.checkout_line_detail, item.packSize, item.quantity)
             line.lineTotal.text = item.lineTotal.asRupees()
+            val unavailable = item.productId in state.unavailableIds
+            line.lineStatus.isVisible = unavailable
+            line.lineEmoji.alpha = if (unavailable) UNAVAILABLE_ALPHA else 1f
+            line.lineName.alpha = if (unavailable) UNAVAILABLE_ALPHA else 1f
         }
+        binding.reorderButton.isEnabled = state.canReorder
         BillBinder.bind(binding.bill, order)
 
         binding.deliveryAddress.text = getString(R.string.placed_address, order.addressLabel, order.addressLine)
@@ -124,5 +144,9 @@ class OrderDetailFragment : Fragment(R.layout.fragment_order_detail) {
     override fun onDestroyView() {
         _binding = null
         super.onDestroyView()
+    }
+
+    private companion object {
+        const val UNAVAILABLE_ALPHA = 0.5f
     }
 }

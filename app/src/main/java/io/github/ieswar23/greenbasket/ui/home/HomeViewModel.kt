@@ -10,21 +10,28 @@ import io.github.ieswar23.greenbasket.data.repository.CatalogRepository
 import io.github.ieswar23.greenbasket.data.repository.OrderRepository
 import io.github.ieswar23.greenbasket.data.repository.SyncState
 import io.github.ieswar23.greenbasket.data.repository.WishlistRepository
+import io.github.ieswar23.greenbasket.domain.BuyAgainRanker
 import io.github.ieswar23.greenbasket.domain.DeliverySlotProvider
 import io.github.ieswar23.greenbasket.domain.model.Address
 import io.github.ieswar23.greenbasket.domain.model.Banner
 import io.github.ieswar23.greenbasket.domain.model.Category
 import io.github.ieswar23.greenbasket.domain.model.DeliverySlot
+import io.github.ieswar23.greenbasket.domain.model.Product
 import io.github.ieswar23.greenbasket.domain.model.ProductItem
 import io.github.ieswar23.greenbasket.domain.withUserState
 import io.github.ieswar23.greenbasket.ui.common.ProductActionsViewModel
 import io.github.ieswar23.greenbasket.ui.common.UiEvent
 import io.github.ieswar23.greenbasket.util.TimeProvider
+import kotlinx.coroutines.ExperimentalCoroutinesApi
+import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.combine
+import kotlinx.coroutines.flow.flatMapLatest
+import kotlinx.coroutines.flow.flowOf
+import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
 import javax.inject.Inject
@@ -52,6 +59,7 @@ class HomeViewModel @Inject constructor(
     preferences: PreferencesRepository,
     slotProvider: DeliverySlotProvider,
     time: TimeProvider,
+    private val buyAgainRanker: BuyAgainRanker,
 ) : ProductActionsViewModel(cartRepository, wishlistRepository) {
 
     private val _isRefreshing = MutableStateFlow(false)
@@ -60,12 +68,23 @@ class HomeViewModel @Inject constructor(
     private val quantities = cartRepository.observeQuantities()
     private val wishlist = wishlistRepository.observeIds()
 
+    /** Frequently bought products ranked from order history; empty (and hidden) without past orders. */
+    @OptIn(ExperimentalCoroutinesApi::class)
+    private val buyAgain: Flow<List<Product>> = orderRepository.observeOrders().flatMapLatest { orders ->
+        val ids = BuyAgainRanker.candidateIds(orders)
+        if (ids.isEmpty()) {
+            flowOf(emptyList())
+        } else {
+            catalogRepository.observeProductsByIds(ids).map { catalog -> buyAgainRanker.rank(orders, catalog) }
+        }
+    }
+
     val uiState: StateFlow<HomeUiState> = combine(
         catalogRepository.syncState,
         catalogRepository.observeBanners(),
         catalogRepository.observeCategories(),
         catalogRepository.observeBestDeals().withUserState(quantities, wishlist),
-        catalogRepository.observeBuyAgain().withUserState(quantities, wishlist),
+        buyAgain.withUserState(quantities, wishlist),
     ) { sync, banners, categories, deals, buyAgain ->
         when {
             categories.isNotEmpty() -> HomeUiState.Content(banners, categories, deals, buyAgain)

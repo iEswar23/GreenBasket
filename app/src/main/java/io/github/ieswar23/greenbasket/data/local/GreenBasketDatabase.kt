@@ -3,6 +3,8 @@ package io.github.ieswar23.greenbasket.data.local
 import androidx.room.Database
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
+import androidx.room.migration.Migration
+import androidx.sqlite.db.SupportSQLiteDatabase
 import io.github.ieswar23.greenbasket.data.local.dao.AddressDao
 import io.github.ieswar23.greenbasket.data.local.dao.CartDao
 import io.github.ieswar23.greenbasket.data.local.dao.CatalogDao
@@ -28,7 +30,7 @@ import io.github.ieswar23.greenbasket.data.local.entity.WishlistEntity
         OrderEntity::class,
         OrderItemEntity::class,
     ],
-    version = 1,
+    version = 2,
     exportSchema = false,
 )
 @TypeConverters(Converters::class)
@@ -41,5 +43,12 @@ abstract class GreenBasketDatabase : RoomDatabase() {
 
     companion object {
         const val NAME = "greenbasket.db"
+
+        /** v2 adds product availability; existing rows default to in stock until the next catalog refresh. */
+        val MIGRATION_1_2 = object : Migration(1, 2) {
+            override fun migrate(db: SupportSQLiteDatabase) {
+                db.execSQL("ALTER TABLE products ADD COLUMN inStock INTEGER NOT NULL DEFAULT 1")
+            }
+        }
     }
 }

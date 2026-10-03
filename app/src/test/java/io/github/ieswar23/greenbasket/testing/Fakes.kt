@@ -4,12 +4,15 @@ import io.github.ieswar23.greenbasket.data.preferences.PreferencesRepository
 import io.github.ieswar23.greenbasket.data.repository.AddressRepository
 import io.github.ieswar23.greenbasket.data.repository.CartRepository
 import io.github.ieswar23.greenbasket.data.repository.CatalogRepository
+import io.github.ieswar23.greenbasket.data.repository.OrderRepository
+import io.github.ieswar23.greenbasket.data.repository.PlaceOrderParams
 import io.github.ieswar23.greenbasket.data.repository.SyncState
 import io.github.ieswar23.greenbasket.data.repository.WishlistRepository
 import io.github.ieswar23.greenbasket.domain.model.Address
 import io.github.ieswar23.greenbasket.domain.model.Banner
 import io.github.ieswar23.greenbasket.domain.model.CartItem
 import io.github.ieswar23.greenbasket.domain.model.Category
+import io.github.ieswar23.greenbasket.domain.model.Order
 import io.github.ieswar23.greenbasket.domain.model.PaymentMethod
 import io.github.ieswar23.greenbasket.domain.model.Product
 import io.github.ieswar23.greenbasket.domain.model.ThemeMode
@@ -26,6 +29,7 @@ class FakeCatalogRepository(
 ) : CatalogRepository {
 
     val products = MutableStateFlow(products)
+    val categories = MutableStateFlow<List<Category>>(emptyList())
 
     /** Every query that actually hit the "database", in order. */
     val searchedQueries = mutableListOf<String>()
@@ -33,7 +37,7 @@ class FakeCatalogRepository(
     override val syncState: StateFlow<SyncState> = MutableStateFlow(SyncState.Synced)
     override suspend fun syncIfNeeded() = Unit
     override suspend fun refresh(): Result<Unit> = Result.success(Unit)
-    override fun observeCategories(): Flow<List<Category>> = flowOf(emptyList())
+    override fun observeCategories(): Flow<List<Category>> = categories
     override suspend fun getCategory(id: String): Category? =
         Category(id = id, name = "Dairy & Eggs", subtitle = "", emoji = "🥛", tint = 0)
     override fun observeBanners(): Flow<List<Banner>> = flowOf(emptyList())
@@ -44,7 +48,9 @@ class FakeCatalogRepository(
         products.map { list -> list.filter { it.variantGroup == variantGroup } }
     override fun observeSimilar(product: Product, limit: Int): Flow<List<Product>> = flowOf(emptyList())
     override fun observeBestDeals(limit: Int): Flow<List<Product>> = flowOf(emptyList())
-    override fun observeBuyAgain(limit: Int): Flow<List<Product>> = flowOf(emptyList())
+    override fun observeProductsByIds(ids: Collection<String>): Flow<List<Product>> =
+        products.map { list -> list.filter { it.id in ids } }
+    override suspend fun getProducts(ids: Collection<String>): List<Product> = products.value.filter { it.id in ids }
 
     override fun search(query: String): Flow<List<Product>> = flow {
         searchedQueries += query
@@ -177,4 +183,13 @@ class FakeAddressRepository(
         return id
     }
     override suspend fun seedIfEmpty() = Unit
+}
+
+class FakeOrderRepository(orders: List<Order> = emptyList()) : OrderRepository {
+    val orders = MutableStateFlow(orders)
+
+    override fun observeOrders(): Flow<List<Order>> = orders
+    override fun observeOrder(orderId: String): Flow<Order?> = orders.map { list -> list.firstOrNull { it.id == orderId } }
+    override suspend fun placeOrder(params: PlaceOrderParams): Result<String> = Result.failure(UnsupportedOperationException())
+    override suspend fun importHistoryIfEmpty() = Unit
 }

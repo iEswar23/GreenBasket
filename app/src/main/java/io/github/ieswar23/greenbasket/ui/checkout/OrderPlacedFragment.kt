@@ -56,7 +56,7 @@ class OrderPlacedFragment : Fragment(R.layout.fragment_order_placed) {
             override fun handleOnBackPressed() = continueShopping()
         })
 
-        collectWithLifecycle(viewModel.order) { order -> order?.let(::bindOrder) }
+        collectWithLifecycle(viewModel.uiState) { state -> state?.order?.let(::bindOrder) }
     }
 
     private fun continueShopping() {

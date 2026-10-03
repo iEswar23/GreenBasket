@@ -37,6 +37,7 @@ data class ProductDto(
     @SerializedName("keywords") val keywords: String?,
     @SerializedName("rating") val rating: Float?,
     @SerializedName("ratingCount") val ratingCount: Int?,
+    @SerializedName("inStock") val inStock: Boolean?,
 )
 
 data class BannersResponse(@SerializedName("banners") val banners: List<BannerDto>?)

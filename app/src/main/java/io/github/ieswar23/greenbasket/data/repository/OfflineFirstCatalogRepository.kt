@@ -95,8 +95,12 @@ class OfflineFirstCatalogRepository @Inject constructor(
     override fun observeBestDeals(limit: Int): Flow<List<Product>> =
         dao.observeBestDeals(limit).mapProducts()
 
-    override fun observeBuyAgain(limit: Int): Flow<List<Product>> =
-        dao.observeBuyAgain(limit).mapProducts()
+    override fun observeProductsByIds(ids: Collection<String>): Flow<List<Product>> =
+        dao.observeProductsByIds(ids.toList()).mapProducts()
+
+    override suspend fun getProducts(ids: Collection<String>): List<Product> = withContext(ioDispatcher) {
+        dao.getProducts(ids.toList()).map { it.toDomain() }
+    }
 
     override fun search(query: String): Flow<List<Product>> =
         dao.search(query.trim()).mapProducts()

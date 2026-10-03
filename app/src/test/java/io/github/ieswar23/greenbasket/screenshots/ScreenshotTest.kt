@@ -1,13 +1,17 @@
 package io.github.ieswar23.greenbasket.screenshots
 
 import android.os.Looper
+import android.view.View
 import androidx.annotation.IdRes
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import androidx.test.core.app.ActivityScenario
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import com.github.takahirom.roborazzi.RoborazziOptions
 import com.github.takahirom.roborazzi.captureRoboImage
+import com.google.android.material.appbar.AppBarLayout
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import dagger.hilt.android.testing.HiltAndroidRule
 import dagger.hilt.android.testing.HiltAndroidTest
@@ -21,6 +25,7 @@ import io.github.ieswar23.greenbasket.data.repository.OrderRepository
 import io.github.ieswar23.greenbasket.ui.common.CategoryArgs
 import io.github.ieswar23.greenbasket.ui.common.OrderArgs
 import io.github.ieswar23.greenbasket.ui.common.ProductArgs
+import io.github.ieswar23.greenbasket.ui.home.HomeViewTypes
 import kotlinx.coroutines.runBlocking
 import org.junit.After
 import org.junit.Before
@@ -134,6 +139,24 @@ class ScreenshotTest {
         capture("07_home_dark")
     }
 
+    @Test
+    fun buyAgain() {
+        fillCart(mapOf("dy_toned_1l" to 2))
+        launch()
+        scrollHomeToBuyAgain()
+        capture("08_buy_again")
+    }
+
+    @Test
+    fun reorder() {
+        launch()
+        selectTab(R.id.ordersFragment)
+        navigate(R.id.orderDetailFragment, OrderArgs.bundle("GB24091873"))
+        scenario!!.onActivity { activity -> activity.findViewById<View>(R.id.reorderButton).performClick() }
+        settle()
+        capture("09_reorder")
+    }
+
     // region helpers
 
     private fun fillCart(lines: Map<String, Int>) = runBlocking {
@@ -181,6 +204,19 @@ class ScreenshotTest {
         mainLooper.idle()
     }
 
+    /** Collapses the header and scrolls the home feed so the "Buy again" section sits near the top. */
+    private fun scrollHomeToBuyAgain() {
+        scenario!!.onActivity { activity ->
+            activity.findViewById<AppBarLayout>(R.id.appBar).setExpanded(false, false)
+            val list = activity.findViewById<RecyclerView>(R.id.homeList)
+            val adapter = checkNotNull(list.adapter)
+            val buyAgainCarousel = (0 until adapter.itemCount).last { adapter.getItemViewType(it) == HomeViewTypes.CAROUSEL }
+            val offset = (BUY_AGAIN_TOP_OFFSET_DP * activity.resources.displayMetrics.density).toInt()
+            (list.layoutManager as LinearLayoutManager).scrollToPositionWithOffset(buyAgainCarousel - 1, offset)
+        }
+        settle()
+    }
+
     private fun capture(name: String) {
         scenario!!.onActivity { activity ->
             activity.window.decorView.captureRoboImage(
@@ -198,6 +234,7 @@ private const val SCREENSHOT_DIR = "../docs/screenshots"
 private const val SETTLE_ROUNDS = 12
 private const val SETTLE_SLEEP_MS = 60L
 private const val ANIMATION_STEP_MS = 150L
+private const val BUY_AGAIN_TOP_OFFSET_DP = 120
 
 private val OPTIONS = RoborazziOptions(
     recordOptions = RoborazziOptions.RecordOptions(resizeScale = 0.45),

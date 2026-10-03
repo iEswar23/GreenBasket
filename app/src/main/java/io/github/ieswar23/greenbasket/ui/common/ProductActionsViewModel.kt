@@ -23,6 +23,7 @@ abstract class ProductActionsViewModel(
     val events: Flow<UiEvent> = _events.receiveAsFlow()
 
     fun increment(product: Product) {
+        if (!product.inStock) return
         viewModelScope.launch { cartRepository.increment(product.id) }
     }
 

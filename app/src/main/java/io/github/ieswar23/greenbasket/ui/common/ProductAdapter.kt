@@ -71,6 +71,8 @@ class ProductAdapter(
             binding.mrp.setStrikeThrough()
             binding.discountBadge.isVisible = product.discountPercent > 0
             binding.discountBadge.text = context.getString(R.string.discount_off, product.discountPercent)
+            binding.emoji.alpha = if (product.inStock) 1f else SOLD_OUT_ALPHA
+            binding.stepper.isAvailable = product.inStock
             binding.root.contentDescription = context.getString(
                 R.string.cd_product_card, product.name, product.packSize, product.price.asRupees(),
             )
@@ -102,5 +104,6 @@ class ProductAdapter(
 
     private companion object {
         const val PAYLOAD_USER_STATE = "user_state"
+        const val SOLD_OUT_ALPHA = 0.45f
     }
 }

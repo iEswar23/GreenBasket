@@ -58,19 +58,8 @@ interface CatalogDao {
     )
     fun observeBestDeals(limit: Int): Flow<List<ProductEntity>>
 
-    @Query(
-        """
-        SELECT p.* FROM products p
-        INNER JOIN (
-            SELECT oi.productId AS pid, MAX(o.placedAt) AS lastOrdered
-            FROM order_items oi INNER JOIN orders o ON o.id = oi.orderId
-            WHERE o.status != 'CANCELLED'
-            GROUP BY oi.productId
-        ) recent ON recent.pid = p.id
-        ORDER BY recent.lastOrdered DESC, p.position LIMIT :limit
-        """,
-    )
-    fun observeBuyAgain(limit: Int): Flow<List<ProductEntity>>
+    @Query("SELECT * FROM products WHERE id IN (:ids) ORDER BY position")
+    fun observeProductsByIds(ids: List<String>): Flow<List<ProductEntity>>
 
     @Query(
         """

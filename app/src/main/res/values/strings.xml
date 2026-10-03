@@ -17,6 +17,7 @@
 
     <!-- Common actions -->
     <string name="action_add">ADD</string>
+    <string name="action_sold_out">SOLD OUT</string>
     <string name="action_apply">Apply</string>
     <string name="action_change">Change</string>
     <string name="action_clear">Clear</string>
@@ -54,7 +55,7 @@
     <string name="home_section_deals">Best deals today</string>
     <string name="home_section_deals_subtitle">Biggest discounts across the store</string>
     <string name="home_section_buy_again">Buy again</string>
-    <string name="home_section_buy_again_subtitle">From your recent orders</string>
+    <string name="home_section_buy_again_subtitle">Your regulars, ranked from past orders</string>
     <string name="home_footer_title">Fresh groceries,\ndelivered in minutes.</string>
     <string name="home_footer_subtitle">Thoughtfully sourced from local farms and trusted brands.</string>
     <string name="search_hint_format">Search for \"%1$s\"</string>
@@ -222,7 +223,13 @@
     <string name="order_id_format">#%1$s</string>
     <string name="order_placed_on">Placed on %1$s</string>
     <string name="order_delivery_details">Delivery details</string>
-    <string name="order_reorder">Reorder all items</string>
+    <string name="order_reorder">Reorder</string>
+    <string name="order_item_unavailable">OUT OF STOCK</string>
+    <string name="reorder_unavailable_count">%1$d unavailable</string>
+    <string name="reorder_capped_count">%1$d already at max</string>
+    <string name="reorder_summary_join">%1$s · %2$s</string>
+    <string name="reorder_nothing_available">None of these items are available right now</string>
+    <string name="reorder_already_at_max">These items are already in your cart at the maximum quantity</string>
     <string name="order_paid_upi">Paid via UPI</string>
     <string name="order_paid_card">Paid via card</string>
     <string name="order_paid_cash">Pay on delivery</string>
@@ -312,8 +319,12 @@
         <item quantity="other">%1$d items in this order</item>
     </plurals>
     <plurals name="reorder_added">
-        <item quantity="one">%1$d item added to your cart</item>
-        <item quantity="other">%1$d items added to your cart</item>
+        <item quantity="one">Added %1$d item to your cart</item>
+        <item quantity="other">Added %1$d items to your cart</item>
+    </plurals>
+    <plurals name="reorder_added_count">
+        <item quantity="one">Added %1$d item</item>
+        <item quantity="other">Added %1$d items</item>
     </plurals>
     <plurals name="search_results_header">
         <item quantity="one">%1$d result for “%2$s”</item>

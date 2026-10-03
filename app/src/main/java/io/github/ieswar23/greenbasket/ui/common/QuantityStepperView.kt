@@ -1,7 +1,9 @@
 package io.github.ieswar23.greenbasket.ui.common
 
 import android.content.Context
+import android.content.res.ColorStateList
 import android.util.AttributeSet
+import android.util.TypedValue
 import android.view.LayoutInflater
 import android.view.View
 import android.widget.FrameLayout
@@ -21,6 +23,7 @@ class QuantityStepperView @JvmOverloads constructor(
 ) : FrameLayout(context, attrs, defStyleAttr) {
 
     private val binding = ViewQuantityStepperBinding.inflate(LayoutInflater.from(context), this)
+    private var addTextSizePx = 0f
 
     var onIncrement: (() -> Unit)? = null
     var onDecrement: (() -> Unit)? = null
@@ -29,6 +32,14 @@ class QuantityStepperView @JvmOverloads constructor(
 
     var quantity: Int = 0
         private set
+
+    /** When false the product is sold out: the ADD button is disabled and the stepper can only go down. */
+    var isAvailable: Boolean = true
+        set(value) {
+            if (field == value) return
+            field = value
+            renderAvailability()
+        }
 
     init {
         var large = false
@@ -44,8 +55,9 @@ class QuantityStepperView @JvmOverloads constructor(
             binding.addButton.textSize = 16f
             binding.count.textSize = 17f
         }
+        addTextSizePx = binding.addButton.textSize
         binding.addButton.setOnClickListener { onIncrement?.invoke() }
-        binding.plus.setOnClickListener { if (quantity < maxQuantity) onIncrement?.invoke() }
+        binding.plus.setOnClickListener { if (quantity < maxQuantity && isAvailable) onIncrement?.invoke() }
         binding.minus.setOnClickListener { onDecrement?.invoke() }
         render(animate = false)
     }
@@ -61,7 +73,7 @@ class QuantityStepperView @JvmOverloads constructor(
         val inCart = quantity > 0
         binding.count.text = quantity.toString()
         binding.count.contentDescription = context.getString(R.string.cd_quantity, quantity)
-        binding.plus.alpha = if (quantity >= maxQuantity) 0.4f else 1f
+        binding.plus.alpha = if (quantity >= maxQuantity || !isAvailable) 0.4f else 1f
 
         if (!animate) {
             binding.addButton.animate().cancel()
@@ -87,6 +99,21 @@ class QuantityStepperView @JvmOverloads constructor(
         }
     }
 
+    private fun renderAvailability() {
+        binding.addButton.isEnabled = isAvailable
+        binding.addButton.setText(if (isAvailable) R.string.action_add else R.string.action_sold_out)
+        binding.addButton.setTextSize(
+            TypedValue.COMPLEX_UNIT_PX,
+            if (isAvailable) addTextSizePx else addTextSizePx * SOLD_OUT_TEXT_SCALE,
+        )
+        val color = context.themeColor(
+            if (isAvailable) androidx.appcompat.R.attr.colorPrimary else com.google.android.material.R.attr.colorOutline,
+        )
+        binding.addButton.setTextColor(color)
+        binding.addButton.strokeColor = ColorStateList.valueOf(color)
+        binding.plus.alpha = if (quantity >= maxQuantity || !isAvailable) 0.4f else 1f
+    }
+
     private fun crossFade(show: View, hide: View) {
         show.alpha = 0f
         show.scaleX = 0.92f
@@ -96,5 +123,9 @@ class QuantityStepperView @JvmOverloads constructor(
             hide.isVisible = false
             hide.alpha = 1f
         }.start()
+    }
+
+    private companion object {
+        const val SOLD_OUT_TEXT_SCALE = 0.78f
     }
 }

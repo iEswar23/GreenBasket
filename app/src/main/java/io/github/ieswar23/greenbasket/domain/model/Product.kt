@@ -18,6 +18,8 @@ data class Product(
     val nutrition: List<NutritionFact>,
     val rating: Float,
     val ratingCount: Int,
+    /** False when the store has run out; such products can't be added to the cart. */
+    val inStock: Boolean = true,
 ) {
     /** Whole-number discount on MRP, e.g. 18 for "18% OFF". */
     val discountPercent: Int

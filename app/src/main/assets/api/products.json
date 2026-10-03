@@ -127,7 +127,8 @@
    ],
    "keywords": "tamatar vegetable",
    "rating": 4.6,
-   "ratingCount": 393
+   "ratingCount": 393,
+   "inStock": false
   },
   {
    "id": "fv_tomato_1kg",
@@ -2797,7 +2798,8 @@
    ],
    "keywords": "nariyal pani",
    "rating": 4.2,
-   "ratingCount": 536
+   "ratingCount": 536,
+   "inStock": false
   },
   {
    "id": "bv_green_tea",

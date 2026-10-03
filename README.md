@@ -18,10 +18,16 @@ Retrofit service served by an OkHttp interceptor from bundled JSON.
 ## Features
 
 - **Home** — delivery ETA + address header, rotating search hints, auto-scrolling offer banners
-  (ViewPager2 + dot indicator), 8-category grid, "Best deals today" and "Buy again" carousels, all
-  composed with a `ConcatAdapter`. Pull-to-refresh and a shimmer skeleton while the catalog loads.
+  (ViewPager2 + dot indicator), 8-category grid and a "Best deals today" carousel, all composed with a
+  `ConcatAdapter`. Pull-to-refresh and a shimmer skeleton while the catalog loads.
+- **Buy again** — a horizontal shelf on Home with up to 10 products you buy most often. A pure, unit-tested
+  `BuyAgainRanker` scores each product by how many orders it appeared in, with every purchase weighted by
+  recency (the weight halves every 14 days). Cancelled orders and sold-out products are left out, and ties
+  are broken deterministically. Each card has the usual `ADD` / − n + stepper, and the shelf is hidden
+  until there is order history.
 - **Catalog** — 120 realistic products across Fruits & Vegetables, Dairy & Eggs, Bakery, Snacks,
-  Beverages, Atta/Rice/Dal, Personal Care and Household, with MRP strike-through and % off.
+  Beverages, Atta/Rice/Dal, Personal Care and Household, with MRP strike-through, % off and sold-out
+  states.
 - **Product listing** — 2-column grid, `ADD` button that morphs into a − n + stepper, sort & filter
   bottom sheet (relevance / price / discount / name, price range slider, minimum discount, brands) and
   a one-tap "20%+ off" quick filter.
@@ -36,8 +42,12 @@ Retrofit service served by an OkHttp interceptor from bundled JSON.
 - **Checkout** — address and slot selection, payment method, order summary; the order is POSTed to the
   mock API and persisted locally.
 - **Order placed** — animated checkmark (`AnimatedVectorDrawable`) with order summary.
-- **Orders** — history with colour-coded status chips, order details with a live tracking timeline
-  (status progresses over time for new orders) and one-tap *Reorder*.
+- **Orders** — history with colour-coded status chips and order details with a live tracking timeline
+  (status progresses over time for new orders).
+- **Reorder** — one tap on an order's detail screen puts every item that is still available back in the cart
+  at today's prices. A pure, unit-tested `ReorderPlanner` skips sold-out or delisted items (flagged
+  *Out of stock* in the item list), merges with what is already in the cart up to the per-item limit, and a
+  Snackbar sums it up ("Added 6 items · 1 unavailable") with a *View cart* action.
 - **Profile** — saved addresses (add with validation, pick default), wishlist, savings stats,
   Light / Dark / System theme persisted in DataStore and applied via `AppCompatDelegate`.
 - Material motion (`MaterialSharedAxis` for drill-down, `MaterialFadeThrough` between tabs), splash
@@ -70,6 +80,8 @@ flowchart TD
         DS[DeliverySlotProvider]
         PQ[ProductQueryEngine]
         OS[OrderStatusResolver]
+        BA[BuyAgainRanker]
+        RP[ReorderPlanner]
     end
     subgraph Data["Data layer"]
         R[Repositories] --> ROOM[(Room)]
@@ -85,8 +97,8 @@ flowchart TD
   categories, products and banners from the API and caches them; every screen observes Room via Flow.
 - ViewModels combine repository flows into immutable `UiState` objects exposed as `StateFlow` and
   collected in Fragments with `repeatOnLifecycle(STARTED)`.
-- Business rules (pricing, delivery slots, sort/filter, order progress, address validation) live in
-  pure Kotlin classes so they can be unit tested without Android.
+- Business rules (pricing, delivery slots, sort/filter, order progress, address validation, buy-again
+  ranking, re-order planning) live in pure Kotlin classes so they can be unit tested without Android.
 
 ## Package structure
 
@@ -103,6 +115,7 @@ io.github.ieswar23.greenbasket
 │   ├── model          # Product, CartItem, Bill, Coupon, DeliverySlot, Order, Address…
 │   ├── CartCalculator.kt, CouponCatalog.kt, DeliverySlotProvider.kt
 │   ├── ProductQueryEngine.kt, OrderStatusResolver.kt, AddressValidator.kt
+│   ├── BuyAgainRanker.kt, ReorderPlanner.kt
 ├── ui
 │   ├── common         # ProductAdapter, QuantityStepperView, ShimmerLayout, BillBinder, extensions
 │   ├── home           # HomeFragment + ConcatAdapter sections
@@ -140,7 +153,7 @@ From the command line:
 ./gradlew testDebugUnitTest
 ```
 
-41 unit tests cover:
+64 unit tests cover:
 
 - `CartCalculator` — item totals, MRP savings, free-delivery threshold, handling fee, flat and
   percentage coupons (minimum order, caps).
@@ -150,6 +163,12 @@ From the command line:
   options, empty state and cart quantities.
 - `SearchViewModel` — debounce behaviour driven by a `StandardTestDispatcher` and virtual time, minimum
   query length, empty results and recent searches.
+- `BuyAgainRanker` — frequency × recency scoring, cancelled / sold-out / delisted exclusion, deterministic
+  tie-breaking and the 10-item cap, driven by an injected clock.
+- `ReorderPlanner` — fully available orders, skipping out-of-stock and delisted items, merging with
+  quantities already in the cart, merging duplicate lines and capping at the per-item cart limit.
+- `HomeViewModel` and `OrderDetailViewModel` — the Buy again shelf reacting to order history, stock and cart
+  changes, and *Reorder* filling the cart and reporting what it skipped.
 - Delivery slot generation, simulated order status progression, address validation and recent-search
   merging.
 
@@ -180,6 +199,8 @@ any images. To regenerate the PNGs in `docs/screenshots/`, run:
   </tr>
   <tr>
     <td align="center"><img src="docs/screenshots/07_home_dark.png" width="250" alt="Home in dark theme"/><br/><sub>Dark theme</sub></td>
+    <td align="center"><img src="docs/screenshots/08_buy_again.png" width="250" alt="Buy again shelf"/><br/><sub>Buy again, ranked from order history</sub></td>
+    <td align="center"><img src="docs/screenshots/09_reorder.png" width="250" alt="Reorder"/><br/><sub>Reorder with skipped items summary</sub></td>
   </tr>
 </table>
 

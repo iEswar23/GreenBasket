@@ -39,6 +39,22 @@
             android:layout_height="wrap_content"
             android:textAppearance="@style/TextAppearance.GreenBasket.Caption"
             tools:text="1 L × 2" />
+
+        <TextView
+            android:id="@+id/lineStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/bg_pill"
+            android:backgroundTint="?attr/colorErrorContainer"
+            android:paddingHorizontal="6dp"
+            android:paddingVertical="1dp"
+            android:text="@string/order_item_unavailable"
+            android:textColor="?attr/colorOnErrorContainer"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            tools:visibility="visible" />
     </LinearLayout>
 
     <TextView

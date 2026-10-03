@@ -127,6 +127,114 @@
    "slotLabel": "10 AM – 11 AM",
    "paymentMethod": "UPI",
    "couponCode": null
+  },
+  {
+   "id": "GB24078640",
+   "placedDaysAgo": 31,
+   "hour": 18,
+   "minute": 50,
+   "status": "DELIVERED",
+   "items": [
+    {
+     "productId": "dy_toned_1l",
+     "quantity": 2
+    },
+    {
+     "productId": "bk_brown_bread",
+     "quantity": 1
+    },
+    {
+     "productId": "fv_banana",
+     "quantity": 1
+    },
+    {
+     "productId": "dy_paneer",
+     "quantity": 1
+    },
+    {
+     "productId": "dy_curd_400",
+     "quantity": 1
+    },
+    {
+     "productId": "bv_coffee_50",
+     "quantity": 1
+    }
+   ],
+   "slotLabel": "Express · 14 mins",
+   "paymentMethod": "UPI",
+   "couponCode": null
+  },
+  {
+   "id": "GB24074417",
+   "placedDaysAgo": 38,
+   "hour": 9,
+   "minute": 10,
+   "status": "DELIVERED",
+   "items": [
+    {
+     "productId": "dy_toned_1l",
+     "quantity": 2
+    },
+    {
+     "productId": "dy_brown_eggs",
+     "quantity": 1
+    },
+    {
+     "productId": "fv_banana",
+     "quantity": 1
+    },
+    {
+     "productId": "fv_onion_1kg",
+     "quantity": 1
+    },
+    {
+     "productId": "fv_potato",
+     "quantity": 1
+    },
+    {
+     "productId": "st_atta_5",
+     "quantity": 1
+    }
+   ],
+   "slotLabel": "9 AM – 10 AM",
+   "paymentMethod": "CARD",
+   "couponCode": "GREEN10"
+  },
+  {
+   "id": "GB24070256",
+   "placedDaysAgo": 45,
+   "hour": 20,
+   "minute": 25,
+   "status": "DELIVERED",
+   "items": [
+    {
+     "productId": "dy_toned_1l",
+     "quantity": 2
+    },
+    {
+     "productId": "bk_brown_bread",
+     "quantity": 1
+    },
+    {
+     "productId": "dy_brown_eggs",
+     "quantity": 1
+    },
+    {
+     "productId": "dy_paneer",
+     "quantity": 1
+    },
+    {
+     "productId": "bv_orange_juice",
+     "quantity": 1
+    },
+    {
+     "productId": "sn_digestive",
+     "quantity": 1
+    }
+   ],
+   "slotLabel": "Express · 11 mins",
+   "paymentMethod": "CASH",
+   "couponCode": null
   }
  ]
 }
